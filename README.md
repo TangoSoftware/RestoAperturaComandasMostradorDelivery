@@ -219,11 +219,38 @@ Estos datos serán necesario si la orden tiene algún tipo de medio de pago regi
 
 
 ### 2. GetOrders (GET)
-  Devuelve las comandas del módulo delivery y/o mostrador registradas en Tango Restó durante las últimas   24 horas; las comandas pudieron ser generadas desde el sistema Tango Restó o desde una aplicación         externa.
+  Devuelve las comandas del módulo delivery y/o mostrador registradas en Tango Restó durante las últimas   24 horas; las comandas pudieron ser generadas desde el sistema Tango Restó o desde una aplicación  externa.
   
 ####   Request
      - TokenCS
     
      
  ####   Formato del JSON
+
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+### 3. GetOrdersbyId (GET)
+   Devuelve una comanda específica a través del Id de la comanda registrada en Tango Restó.   
+  
+####   Request
+     - TokenCS
+     - Id 
+    
+     
+ ####   Formato del JSON
+
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+Id : 508
+}
+```
 

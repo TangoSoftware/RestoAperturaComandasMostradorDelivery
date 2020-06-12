@@ -42,8 +42,13 @@ Desde Restô se podrá:
 |  **Description** | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
 |  **Phome** | Número telefónico del cliente | Varchar(200 | 54113426578 |
 |  **Notes** | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
-|  **ZipCode** | Código postal la dirección del cliente | Varchar(40) | 1019 |
+|  **ZipCode** | Código postal de la dirección del cliente | Varchar(40) | 1019 |
 |  **City** | Ciudad | Varchar(500) | Capital Federal |
-|  **Street** | Nombre de la calle | Varchar(500) | Esmeralda |
+|  **Street** | Nombre de la calle de la dirección del cliente| Varchar(500) | Esmeralda |
+|  **Number** | Número o altura de la calle de la dirección del cliente | Varchar(40) | 1120 |
+|  **Area** | localidad de la dirección del cliente | Varchar(500) | Retiro |
+|  **Corner** | Esquina referencial a la calle de la dirección del cliente | Varchar(500) | Corriente |
+|  **Complement** | Identificación del número del Piso de la dirección del cliente | Varchar(500) | PB |
+|  **Department** | Identificación del departamento de la dirección del cliente | Varchar(500) | PB |
 
 

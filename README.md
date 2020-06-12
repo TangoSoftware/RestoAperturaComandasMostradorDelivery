@@ -393,15 +393,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- |--- |
-| **Code** | Código de la lista de precio | Integer(8) | 4 |
+| **Code** | Número de la lista de precio | Integer(8) | 4 |
 | **Description** |  Descripción de la lista de precio | Varchar(40) | Uber |
 
 <br/><br/>
 
 ### 9. GetProductList (GET)
-   Este método devuelve  los artículos disponibles en Tango Restó cuyo perfil sea:
+   Este método devuelve  los artículos disponibles en Tango Restó cuyo perfil sea
+ 
       - Venta
-      - Compra / Venta 
+      - Compra / Venta
+      
   
 ####   Request
      - TokenCS
@@ -429,9 +431,53 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
-**Información Payments**
+### 10. GetStateOrderList (GET)
+   Este método devuelve los diferentes estados que puede tener una comanda
+  
+####   Request
+     - TokenCS
+      
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetStateOrderList**
+
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- |--- |
-|  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
-|  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
-|  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
+| **State** | Estado de la comanda | Varchar(1) | A |
+| **Description** |  Descripción es el estado de la comanda | Varchar(40) | Abierta |
+
+<br/><br/>
+
+### 11. GetProductPriceList (GET)
+   Este método permite ver si un artículo esta relacionado con una o mas listas de precio
+  
+####   Request
+     - TokenCS
+      
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetProductPriceList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Price** | Es elprecio del artículo | DECIMAL_TG | 200.0 |
+| **ProductCode** | Código del artículo | Varchar(-1) | AC098 |
+| **PriceListCode** | Número de la lista de precio | Integer(8) | 1 |
+
+<br/><br/>

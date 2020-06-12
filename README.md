@@ -7,6 +7,8 @@ Desde Restô se podrá:
   - Cancelar una comanda.
   - Crear un cliente si no existe siendo la dirección de entrega la que indique un método para agregar una comanda.
 
+### Versiones soportadas de Tango Restô
+La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.xxxx o superior**.
 
 ## Arquitectura
 
@@ -214,4 +216,14 @@ Estos datos serán necesario si la orden tiene algún tipo de medio de pago regi
 |  **Code** | Si | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
 |  **PaymentAmount** | Si | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
 | **Online** | Si | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
+
+
+### 2. GetOrders (GET)
+  Devuelve las comandas del módulo delivery y/o mostrador registradas en Tango Restó durante las últimas   24 horas; las comandas pudieron ser generadas desde el sistema Tango Restó o desde una aplicación         externa.
+  
+####   Request
+     - TokenCS
+    
+     
+ ####   Formato del JSON
 

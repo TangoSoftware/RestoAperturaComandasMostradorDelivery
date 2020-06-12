@@ -57,5 +57,9 @@ Desde Restô se podrá:
 |  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
 |  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
 |  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
-
+|  **Type** | Indica si el valor del descuento a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
+|  **Amount** | Valor a aplocar del descuento  | DECIMAL_TG | 20 |
+|  **Code** | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
+|  **PaymentAmount** | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
+| **Online** | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
 

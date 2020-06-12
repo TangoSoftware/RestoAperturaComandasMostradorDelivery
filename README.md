@@ -235,7 +235,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
 
-### 3. GetOrdersbyId (GET)
+### 3. GetOrderbyId (GET)
    Devuelve una comanda específica a través del Id de la comanda registrada en Tango Restó.   
   
 ####   Request
@@ -254,3 +254,40 @@ Id : 508
 }
 ```
 
+**Información GetOrderById**
+
+Estos datos son obligatorios para dar de alta a una orden
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **Id** | Si | Número de la orden externa | Integer(8) | 3000 |
+
+<br/><br/>
+
+### 3. GetOrderbyExternalId (GET)
+   Devuelve una comanda especifica pasando como parámetros el ID de la comanda que viene de la aplicación externa y, el ID de la           plataforma de origen
+  
+####   Request
+     - TokenCS
+     - Id 
+     - PlatformId
+    
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+Id : 508
+}
+```
+
+**Información GetOrderByExternalId**
+
+Estos datos son obligatorios para dar de alta a una orden
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **Id** | Si | Número de la orden externa | Integer(8) | 3000 |
+| **PlatformId** | Si| Número de la orden externa | D_ID(4) | 3 |
+
+<br/><br/>

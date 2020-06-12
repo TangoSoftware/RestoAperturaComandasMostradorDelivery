@@ -481,3 +481,9 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **PriceListCode** | Número de la lista de precio | Integer(8) | 1 |
 
 <br/><br/>
+
+## Código de errores
+
+| **Entidad** | **Código** | **Mensaje** |
+| --- | --- | --- |
+| **TokenCS** | E0001 | No es posible conectarse  Por favor verifique los datos del TokenCS |

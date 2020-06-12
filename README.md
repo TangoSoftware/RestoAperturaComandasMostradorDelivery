@@ -20,3 +20,14 @@ Desde Restô se podrá:
 ####   Request
      - TokenCS
      - CashCode
+     - Object Order
+
+
+
+**Información Addorder**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
+| **cashCode** | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
+| **ExternalId** | Número de la orden externa | Integer(8) | 3000 |
+| **platformId** | Número de la orden externa | D_ID(4) | 3 |

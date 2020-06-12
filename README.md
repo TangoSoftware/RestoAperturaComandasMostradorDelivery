@@ -22,13 +22,19 @@ Desde Restô se podrá:
      - CashCode
      - Object Order
 
+####  Datos del JSON
 
-
-**Información Addorder**
+**Información CashCode**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
 | --- | --- | --- | --- |
 | **CashCode** | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
+
+
+**Información Objetc Order**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 | **ExternalId** | Número de la orden externa | Integer(8) | 3000 |
 | **platformId** | Número de la orden externa | D_ID(4) | 3 |
 | **RegisteredDate** | Fecha de registro de la orden | Date | mm/dd/aaaa |

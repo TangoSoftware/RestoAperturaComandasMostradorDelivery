@@ -188,14 +188,25 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 | --- | --- | --- | --- |
 |  **Type** | Indica si el valor del descuento a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
 |  **Amount** | Valor a aplocar del descuento  | DECIMAL_TG | 20 |
-|  **Code** | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
 
 <br/><br/>
+
+**Información Surcharge**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
+|  **Type** | Indica si el valor del recargo a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
+|  **Amount** | Valor a aplocar del recargo  | DECIMAL_TG | 20 |
+
+
+<br/><br/>
+
 
 **Información Payments**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
 | --- | --- | --- | --- |
+|  **Code** | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
 |  **PaymentAmount** | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
 | **Online** | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
 

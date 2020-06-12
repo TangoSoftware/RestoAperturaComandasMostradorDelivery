@@ -35,10 +35,15 @@ Desde Restô se podrá:
 | **DeliveryDate** | Fecha estimada de entrega de la comanda | Date | dd/mm/aaaa |
 | **PickUp** | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
 | **PickupDate** | Fecha registro de entrega de la comanda | Date | dd/mm/aaaa |
-|  **Notes** | Nota para la comanda | Varchar(-1) | dd/mm/aaaa |
+|  **Notes** | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
 |  **PriceListCode** | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
 |  **Name** | Nombre y apellido del cliente | Varchar(500 | Juan Martinez |
 |  **Email** | Correo electrónico del cliente | Varchar(500 | juanmartinez@ejemplo.com |
 |  **Description** | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
+|  **Phome** | Número telefónico del cliente | Varchar(200 | 54113426578 |
+|  **Notes** | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
+|  **ZipCode** | Código postal la dirección del cliente | Varchar(40) | 1019 |
+|  **City** | Ciudad | Varchar(500) | Capital Federal |
+|  **Street** | Nombre de la calle | Varchar(500) | Esmeralda |
 
- 
+

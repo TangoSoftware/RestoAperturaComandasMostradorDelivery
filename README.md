@@ -21,6 +21,92 @@ Desde Restô se podrá:
      - TokenCS
      - CashCode
      - Object Order
+     
+ ####   Formato del JSON
+     
+```
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"cashCode" : "1",
+	"order" : {
+		"ExternalId" : 3001,
+		"platformId" : "1",
+		"RegisteredDate" : "06/08/2020",
+		"DeliveryDate" : "06/08/2020",
+		"PickUp" : false,
+		"PickupDate" : "06/08/2020",
+		"Notes" : "Nota para la comanda",
+		"PriceListCode" : 1,
+		
+		"Customer" : {
+				"name" : "Jorge Chaar",
+				"email" : "jorgea@axoft.com"
+		},
+		
+		"Address" : {
+			 "Description" : "Yerbal",
+			 "Phome" : "1569812178",
+			 "Notes": "",
+			 "ZipCode": "1504",
+			 "City": "Caballito",
+			 "Street": "Yerbal",
+			 "Number": "773",
+			 "Area" : "",
+			 "Corner": "Rojas",
+			 "Complement": "",
+			 "Department": "6 E"
+		},
+		
+		"Details" : [
+			{
+				"Code": "001",
+				"Quantity": 2,
+				"UnitPrice": 200.0,
+				"Notes" : "sin sal"
+			},
+			{
+				"Code": "002",
+				"Quantity": 1,
+				"UnitPrice": 200.0,
+				"Notes" : ""
+			},
+			
+			{
+				"Code": "913",
+				"Quantity": 1,
+				"UnitPrice": 1200.0,
+				"Notes" : "",
+				"OptionGroups": [
+					{
+						"IntegrationCode": "521",
+						"Quantity": 12,
+						"Amount": 100
+					}
+				]
+			}
+		],
+		
+		"Discount" : {
+			"Type" : "I",
+			"Amount" : 10
+		},
+		
+		"Surcharge" : {
+			"Type" : "P",
+			"Amount": 5
+		},
+		
+				"Payments" : [
+			{
+				"Code" : 1,
+				"PaymentAmount" : 900,
+				"Online" : true
+			}
+		]
+	}
+}
+
+``` 
+
 
 ####  Datos del JSON
 
@@ -30,6 +116,7 @@ Desde Restô se podrá:
 | --- | --- | --- | --- |
 | **CashCode** | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
 
+<br/><br/>
 
 **Información Objetc Order**
 

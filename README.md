@@ -263,7 +263,7 @@ Id : 508
 <br/><br/>
 
 ### 4. GetOrderbyExternalId (GET)
-   Devuelve una comanda especifica pasando como parámetros el ID de la comanda que viene de la aplicación externa y, el ID de la           plataforma de origen
+   Devuelve una comanda especifica pasando como parámetros el ID de la comanda que viene de la aplicación externa y, el ID de la plataforma de origen
   
 ####   Request
      - TokenCS
@@ -277,7 +277,7 @@ Id : 508
 {
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
-Id : 508
+Id : 508, "PlatformId" : 5
 }
 ```
 
@@ -286,6 +286,152 @@ Id : 508
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **Id** | Si | Número de la comanda generada desde la plataforma externa | Integer(8) | 3000 |
-| **PlatformId** | Si| Número de la plataforma externa | D_ID(4) | 3 |
+| **PlatformId** | Si| Número de la plataforma externa | D_ID(4) | 4 |
 
 <br/><br/>
+
+### 5. CancelOrder (POST)
+   Este método permite anular una comanda, para ello es necesario enviar como parámetros el Id de la comanda de Tango Restó
+  
+####   Request
+     - TokenCS
+     - Id 
+     
+    
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+Id : 508
+}
+```
+
+**Información CancelOrder**
+
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **Id** | Si | Número de la comanda en Tango Restó | Integer(8) | 3000 |
+
+<br/><br/>
+
+### 6. GetPlatFormList (GET)
+   Este método devuelve todas las plataformas externas disponibles qpara las integraciones. 
+  
+####   Request
+     - TokenCS
+     
+     
+    
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetPlatFormList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Id** |  Número de la plataforma externa | Integer(8) | 4 |
+| **Description** |  Nombre de la plataforma o aplicaciñon externa | Varchar(40) | Uber |
+
+<br/><br/>
+
+### 7. GetPaymenetTypes (GET)
+   Este método devuelve todas los medios de pago o cuentas de caja disponibles. 
+  
+####   Request
+     - TokenCS
+     
+     
+    
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetPaymenetTypes**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Code** | Código de la cuenta de caja| Integer(8) | 4 |
+| **Description** |  Descripción de la cuenta de caja | Varchar(40) | Uber |
+
+<br/><br/>
+
+### 8. GetPriceList (GET)
+   Este método devuelve todas las listas de precio disponibles. 
+  
+####   Request
+     - TokenCS
+     
+     
+    
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetPriceList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Code** | Código de la lista de precio | Integer(8) | 4 |
+| **Description** |  Descripción de la lista de precio | Varchar(40) | Uber |
+
+<br/><br/>
+
+### 9. GetProductList (GET)
+   Este método devuelve  los artículos disponibles en Tango Restó cuyo perfil sea:
+      - Venta
+      - Compra / Venta 
+  
+####   Request
+     - TokenCS
+     
+         
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetProductList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Code** | Código del artículo | Varchar(-1) | AC092 |
+| **Description** |  Descripción del artículo | Varchar(30) | AGUA MINERAL |
+| **Type** |  Indica su el artículo es simple, receta o promoción | Varchar(1) | A = Simple, M = Receta, P = Promoción |
+| **Profile** |  Indica su el artículo es de venta o compra / venta | Varchar(1) | A = Compra / Venta, V = Venta |
+| **GroupType** |  Si el artículo es del tipo P (promoción) este campo podrá indicar si la promoción es fija o variable | Varchar(1) | F = Fija, V = Variable |
+
+<br/><br/>
+
+**Información Payments**
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+|  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
+|  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
+|  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |

@@ -113,90 +113,94 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 
 **Información CashCode**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-| **CashCode** | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **CashCode** | Si | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
 
 <br/><br/>
 
 **Información Order**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-| **ExternalId** | Número de la orden externa | Integer(8) | 3000 |
-| **platformId** | Número de la orden externa | D_ID(4) | 3 |
-| **RegisteredDate** | Fecha de registro de la orden | Date | mm/dd/aaaa |
-| **DeliveryDate** | Fecha estimada de entrega de la comanda | Date | mm/dd/aaaa |
-| **PickUp** | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
-| **PickupDate** | Fecha registro de entrega de la comanda | Date | mm/dd/aaaa |
-|  **Notes** | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
-|  **PriceListCode** | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
+Estos campos son obligatorios para dar de alta a una orden
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **ExternalId** | Si | Número de la orden externa | Integer(8) | 3000 |
+| **platformId** | Si| Número de la orden externa | D_ID(4) | 3 |
+| **RegisteredDate** | Si | Fecha de registro de la orden | Date | mm/dd/aaaa |
+| **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | mm/dd/aaaa |
+| **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
+| **PickupDate** | Si | Fecha registro de entrega de la comanda | Date | mm/dd/aaaa |
+|  **Notes** | No | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
+|  **PriceListCode** | Si | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
 
 <br/><br/>
 
 **Información Customer**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Name** | Nombre y apellido del cliente | Varchar(500 | Juan Martinez |
-|  **Email** | Correo electrónico del cliente | Varchar(500 | juanmartinez@ejemplo.com |
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Name** | Si | Nombre y apellido del cliente | Varchar(500 | Juan Martinez |
+|  **Email** | Si | Correo electrónico del cliente | Varchar(500 | juanmartinez@ejemplo.com |
 
 <br/><br/>
 
 **Información Address**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Description** | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
-|  **Phome** | Número telefónico del cliente | Varchar(200 | 54113426578 |
-|  **Notes** | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
-|  **ZipCode** | Código postal de la dirección del cliente | Varchar(40) | 1019 |
-|  **City** | Ciudad | Varchar(500) | Capital Federal |
-|  **Street** | Nombre de la calle de la dirección del cliente| Varchar(500) | Esmeralda |
-|  **Number** | Número o altura de la calle de la dirección del cliente | Varchar(40) | 1120 |
-|  **Area** | localidad de la dirección del cliente | Varchar(500) | Retiro |
-|  **Corner** | Esquina referencial a la calle de la dirección del cliente | Varchar(500) | Corriente |
-|  **Complement** | Identificación del número del Piso de la dirección del cliente | Varchar(500) | PB |
-|  **Department** | Identificación del departamento de la dirección del cliente | Varchar(500) | 5A |
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Description** | No | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
+|  **Phome** | No | Número telefónico del cliente | Varchar(200 | 54113426578 |
+|  **Notes** | No | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
+|  **ZipCode** | No | Código postal de la dirección del cliente | Varchar(40) | 1019 |
+|  **City** | No | Ciudad | Varchar(500) | Capital Federal |
+|  **Street** | Si | Nombre de la calle de la dirección del cliente| Varchar(500) | Esmeralda |
+|  **Number** | Si | Número o altura de la calle de la dirección del cliente | Varchar(40) | 1120 |
+|  **Area** | No | localidad de la dirección del cliente | Varchar(500) | Retiro |
+|  **Corner** | No | Esquina referencial a la calle de la dirección del cliente | Varchar(500) | Corriente |
+|  **Complement** | No | Identificación del número del Piso de la dirección del cliente | Varchar(500) | PB |
+|  **Department** | No | Identificación del departamento de la dirección del cliente | Varchar(500) | 5A |
 
 <br/><br/>
 
 **Información Details**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Code** | Codigo del artículo  | Varchar(15) | AC001 |
-|  **Quantity** | Cantidad del artículo | Integer(4) | 2 |
-|  **UnitPrice** | Precio unitario del artículo  | DECIMAL_TG | 200.0 |
-|  **Notes** | Nota para el artículo | Varchar(-1) | Sin sal |
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Code** | Si | Codigo del artículo  | Varchar(15) | AC001 |
+|  **Quantity** | Si | Cantidad del artículo | Integer(4) | 2 |
+|  **UnitPrice** | Si | Precio unitario del artículo  | DECIMAL_TG | 200.0 |
+|  **Notes** | No | Nota para el artículo | Varchar(-1) | Sin sal |
 
 <br/><br/>
 
 **Información OptionGroups**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
-|  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
-|  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
+Estos datos solo serán necesarios si se trata de un artículo del tipo promoción
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **IntegrationCode** | Si | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
+|  **Quantity** | Si | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
+|  **Amount** | Si | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
 
 <br/><br/>
 
 **Información Discount**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Type** | Indica si el valor del descuento a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
-|  **Amount** | Valor a aplocar del descuento  | DECIMAL_TG | 20 |
+Estos datos serán necesarios si la orden tiene algun tipo de descuento
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Type** | Si | Indica si el valor del descuento a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
+|  **Amount** | Si | Valor a aplocar del descuento  | DECIMAL_TG | 20 |
 
 <br/><br/>
 
 **Información Surcharge**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Type** | Indica si el valor del recargo a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
-|  **Amount** | Valor a aplocar del recargo  | DECIMAL_TG | 20 |
+Estos datos serán necesarios si la orden tiene algún tipo de recargo
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Type** | Si | Indica si el valor del recargo a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
+|  **Amount** | Si | Valor a aplocar del recargo  | DECIMAL_TG | 20 |
 
 
 <br/><br/>
@@ -204,9 +208,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 
 **Información Payments**
 
-| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
-| --- | --- | --- | --- |
-|  **Code** | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
-|  **PaymentAmount** | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
-| **Online** | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
+Estos campos serán necesario si la orden tiene algún tipo de medio de pago registrado
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+|  **Code** | Si | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
+|  **PaymentAmount** | Si | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
+| **Online** | Si | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
 

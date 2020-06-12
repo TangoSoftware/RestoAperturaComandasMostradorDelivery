@@ -263,7 +263,7 @@ Estos datos son obligatorios para dar de alta a una orden
 
 <br/><br/>
 
-### 3. GetOrderbyExternalId (GET)
+### 4. GetOrderbyExternalId (GET)
    Devuelve una comanda especifica pasando como parámetros el ID de la comanda que viene de la aplicación externa y, el ID de la           plataforma de origen
   
 ####   Request

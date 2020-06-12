@@ -31,10 +31,10 @@ Desde Restô se podrá:
 | **CashCode** | Código del puesto de caja asigando a la comanda | Integer(8) | 1 |
 | **ExternalId** | Número de la orden externa | Integer(8) | 3000 |
 | **platformId** | Número de la orden externa | D_ID(4) | 3 |
-| **RegisteredDate** | Fecha de registro de la orden | Date | dd/mm/aaaa |
-| **DeliveryDate** | Fecha estimada de entrega de la comanda | Date | dd/mm/aaaa |
+| **RegisteredDate** | Fecha de registro de la orden | Date | mm/dd/aaaa |
+| **DeliveryDate** | Fecha estimada de entrega de la comanda | Date | mm/dd/aaaa |
 | **PickUp** | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
-| **PickupDate** | Fecha registro de entrega de la comanda | Date | dd/mm/aaaa |
+| **PickupDate** | Fecha registro de entrega de la comanda | Date | mm/dd/aaaa |
 |  **Notes** | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
 |  **PriceListCode** | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
 |  **Name** | Nombre y apellido del cliente | Varchar(500 | Juan Martinez |
@@ -50,5 +50,12 @@ Desde Restô se podrá:
 |  **Corner** | Esquina referencial a la calle de la dirección del cliente | Varchar(500) | Corriente |
 |  **Complement** | Identificación del número del Piso de la dirección del cliente | Varchar(500) | PB |
 |  **Department** | Identificación del departamento de la dirección del cliente | Varchar(500) | PB |
+|  **Code** | Codigo del artículo  | Varchar(15) | AC001 |
+|  **Quantity** | Cantidad del artículo | Integer(4) | 2 |
+|  **UnitPrice** | Precio unitario del artículo  | DECIMAL_TG | 200.0 |
+|  **Notes** | Nota para el artículo | Varchar(-1) | Sin sal |
+|  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
+|  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
+|  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
 
 

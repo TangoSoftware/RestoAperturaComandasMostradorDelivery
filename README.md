@@ -487,3 +487,40 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **Entidad** | **Código** | **Mensaje** |
 | --- | --- | --- |
 | **TokenCS** | E0001 | No es posible conectarse  Por favor verifique los datos del TokenCS |
+| **Identificador** | E0101 | El Id no existe |
+| **Identificador** | E0102 | El Id es un campo obligatorio |
+| **Identificador** | E0103 | El ExternalId no existe |
+| **Identificador** | E0104 | El ExternalId es un campo obligatorio |
+| **Identificador** | E0105 | El PlatformId no existe |
+| **Identificador** | E0106 | El PlatformId es un campo obligatorio |
+| **Identificador** | E0136 | El ExternalId ya existe para la plataforma ‘PlatformId’ |
+| **Caja** | E0107 | El CashCode es un campo obligatorio |
+| **Caja** | E0108 | El CashCode no existe |
+| **Fecha** | E0109 | El RegisteredDate es un campo obligatorio |
+| **Fecha** | E0110 | El RegisteredDate no puede ser mayor a la fecha actual del sistema |
+| **Fecha** | E0111 | El DeliveryDate no puede ser menor al campo RegisteredDate |
+| **Fecha** | E0112 | El DeliveryDate es un campo obligatorio |
+| **Entrega** | E0113 | El PickUp es un campo obligatorio |
+| **Entrega** | E0114 | El valor del campo PickUp no es válido |
+| **Fecha** | E0115 | El campo PickupDate  es un campo obligatorio |
+| **Fecha** | E0116 | El campo PickupDate  no puede ser menor al valor del campo RegisteredDate |
+| **Lista de precio** | E0117 | El valor de PriceListCode es un campo obligatorio |
+| **Lista de precio** | E0118 | El valor de PriceListCode no existe |
+| **Cliente** | E0120 | El nombre del cliente es un dato obligatorio |
+| **Cliente** | E0121 | El EMail del cliente es un dato obligatorio |
+| **Artículo** | E0122 | El valor del campo Code es un dato obligatorio |
+| **Artículo** | E0123 | El valor del campo Code no existe |
+| **Artículo** | E0124 | El valor del campo Quantity debe ser mayor a cero |
+| **Agrupador de artículo** | E0125 | El valor del campo IntegrationCode es un campo obligatorio |
+| **Agrupador de artículo** | E0126 | El valor del campo IntegrationCode no existe |
+| **Agrupador de artículo** | E0127 | El valor del campo Amount es un campo obligatorio |
+| **Descuento** | E0128 | El valor del campo Type no es correcto |
+| **Descuento** | E0129 | El valor del campo Amount es un campo obligatorio |
+| **Recargo** | E0130 | El valor del campo Amount es un campo obligatorio |
+| **Recargo** | E0131 | El valor del campo Type no es correcto |
+| **Medio de pago** | E0132 | El valor del campo code del array payments no existe |
+| **Medio de pago** | E0133 | El valor del campo code del array payments es obligatorio |
+| **Medio de pago** | E0134 | El valor del campo PaymentAmount debe ser mayor a cero |
+| **Medio de pago** | E0135 | El valor del campo Online debe ser true |
+| **General** | E9999 | Error no esperado |
+

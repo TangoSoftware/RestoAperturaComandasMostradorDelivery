@@ -256,7 +256,6 @@ Id : 508
 
 **Información GetOrderById**
 
-Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **Id** | Si | Número de la orden de la comanda registrada en Tango Restó | Integer(8) | 3000 |
@@ -284,7 +283,6 @@ Id : 508
 
 **Información GetOrderByExternalId**
 
-Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **Id** | Si | Número de la comanda generada desde la plataforma externa | Integer(8) | 3000 |

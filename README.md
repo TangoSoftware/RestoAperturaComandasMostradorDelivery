@@ -121,7 +121,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 
 **Información Order**
 
-Estos campos son obligatorios para dar de alta a una orden
+Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **ExternalId** | Si | Número de la orden externa | Integer(8) | 3000 |
@@ -208,7 +208,7 @@ Estos datos serán necesarios si la orden tiene algún tipo de recargo
 
 **Información Payments**
 
-Estos campos serán necesario si la orden tiene algún tipo de medio de pago registrado
+Estos datos serán necesario si la orden tiene algún tipo de medio de pago registrado
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 |  **Code** | Si | Representa el código de la cuenta de caja  | Varchar(15) | 1 |

@@ -25,7 +25,8 @@ Desde Restô se podrá:
  ####   Formato del JSON
      
 ```
-	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 	"cashCode" : "1",
 	"order" : {
 		"ExternalId" : 3001,
@@ -118,7 +119,7 @@ Desde Restô se podrá:
 
 <br/><br/>
 
-**Información Objetc Order**
+**Información Order**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
 | --- | --- | --- | --- |
@@ -130,8 +131,22 @@ Desde Restô se podrá:
 | **PickupDate** | Fecha registro de entrega de la comanda | Date | mm/dd/aaaa |
 |  **Notes** | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
 |  **PriceListCode** | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
+
+<br/><br/>
+
+**Información Customer**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **Name** | Nombre y apellido del cliente | Varchar(500 | Juan Martinez |
 |  **Email** | Correo electrónico del cliente | Varchar(500 | juanmartinez@ejemplo.com |
+
+<br/><br/>
+
+**Información Address**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **Description** | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
 |  **Phome** | Número telefónico del cliente | Varchar(200 | 54113426578 |
 |  **Notes** | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
@@ -142,17 +157,45 @@ Desde Restô se podrá:
 |  **Area** | localidad de la dirección del cliente | Varchar(500) | Retiro |
 |  **Corner** | Esquina referencial a la calle de la dirección del cliente | Varchar(500) | Corriente |
 |  **Complement** | Identificación del número del Piso de la dirección del cliente | Varchar(500) | PB |
-|  **Department** | Identificación del departamento de la dirección del cliente | Varchar(500) | PB |
+|  **Department** | Identificación del departamento de la dirección del cliente | Varchar(500) | 5A |
+
+<br/><br/>
+
+**Información Details**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **Code** | Codigo del artículo  | Varchar(15) | AC001 |
 |  **Quantity** | Cantidad del artículo | Integer(4) | 2 |
 |  **UnitPrice** | Precio unitario del artículo  | DECIMAL_TG | 200.0 |
 |  **Notes** | Nota para el artículo | Varchar(-1) | Sin sal |
+
+<br/><br/>
+
+**Información OptionGroups**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **IntegrationCode** | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
 |  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
 |  **Amount** | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
+
+<br/><br/>
+
+**Información Discount**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **Type** | Indica si el valor del descuento a aplicar será en porcentaje o en importe  | Varchar(1) | I = Importe o P = Porcentaje |
 |  **Amount** | Valor a aplocar del descuento  | DECIMAL_TG | 20 |
 |  **Code** | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
+
+<br/><br/>
+
+**Información Payments**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- | --- |
 |  **PaymentAmount** | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
 | **Online** | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
 

@@ -127,7 +127,7 @@ Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **ExternalId** | Si | Número de la orden externa | Integer(8) | 3000 |
-| **platformId** | Si| Número de la orden externa | D_ID(4) | 3 |
+| **platformId** | Si| Número de la plataforma externa | D_ID(4) | 3 |
 | **RegisteredDate** | Si | Fecha de registro de la orden | Date | mm/dd/aaaa |
 | **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | mm/dd/aaaa |
 | **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
@@ -259,7 +259,7 @@ Id : 508
 Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
-| **Id** | Si | Número de la orden externa | Integer(8) | 3000 |
+| **Id** | Si | Número de la orden de la comanda registrada en Tango Restó | Integer(8) | 3000 |
 
 <br/><br/>
 
@@ -287,7 +287,7 @@ Id : 508
 Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
-| **Id** | Si | Número de la orden externa | Integer(8) | 3000 |
-| **PlatformId** | Si| Número de la orden externa | D_ID(4) | 3 |
+| **Id** | Si | Número de la comanda generada desde la plataforma externa | Integer(8) | 3000 |
+| **PlatformId** | Si| Número de la plataforma externa | D_ID(4) | 3 |
 
 <br/><br/>

@@ -8,6 +8,7 @@ Desde Restô se podrá:
   - Cancelar una comanda.
   - Crear un cliente si no existe siendo la dirección de entrega la que indique un método para agregar una comanda.
   
+### Contenido de la documentación 
   + [Versiones soportadas de Tango Restó](#versiones)
   + [Arquitectura](#arquitectura)
 
@@ -18,6 +19,7 @@ Desde Restô se podrá:
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
+
 La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.xxxx o superior**.
 
 <a name="arquitectura"></a>

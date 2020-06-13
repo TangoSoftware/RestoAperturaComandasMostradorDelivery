@@ -1,0 +1,18 @@
+{
+  "PriceList": [
+    {
+      "Code": 1,
+      "Description": "Lista Delivery"
+    },
+    {
+      "Code": 2,
+      "Description": "Lista Sector Terraza"
+    },
+    {
+      "Code": 3,
+      "Description": "Lista Salón"
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

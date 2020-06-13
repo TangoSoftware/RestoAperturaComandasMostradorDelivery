@@ -1,0 +1,77 @@
+{
+  "Order": {
+    "ExternalId": 3015,
+    "RegisteredDate": "2020-06-12T00:00:00",
+    "DeliveryDate": "1800-01-01T00:00:00",
+    "PickUp": false,
+    "PickupDate": "2020-06-08T00:00:00",
+    "Notes": "Nota para la comanda",
+    "Id": 681,
+    "Customer": {
+      "Name": "Jorge Chaar ",
+      "Email": "jorgea@axoft.com"
+    },
+    "Address": {
+      "Description": null,
+      "Phone": null,
+      "Notes": "Yerbal",
+      "ZipCode": null,
+      "City": null,
+      "Street": "Yerbal",
+      "Number": "773",
+      "Area": "",
+      "Corner": "Yerbal",
+      "Complement": null,
+      "Department": null
+    },
+    "Details": [
+      {
+        "Code": "001",
+        "Name": "COCA COLA",
+        "Quantity": 2,
+        "UnitPrice": 200.0,
+        "Total": 400.0,
+        "Notes": "sin sal",
+        "OptionGroups": []
+      },
+      {
+        "Code": "002",
+        "Name": "COCA COLA LIGHT",
+        "Quantity": 1,
+        "UnitPrice": 200.0,
+        "Total": 200.0,
+        "Notes": "",
+        "OptionGroups": []
+      },
+      {
+        "Code": "913",
+        "Name": "PROMO EMPANADAS",
+        "Quantity": 1,
+        "UnitPrice": 1200.0,
+        "Total": 1200.0,
+        "Notes": "",
+        "OptionGroups": [
+          {
+            "IntegrationCode": "521",
+            "Quantity": 12
+          }
+        ]
+      }
+    ],
+    "Payments": [],
+    "Discounts": [],
+    "State": "A",
+    "platformId": 0,
+    "Discount": {
+      "Type": "I",
+      "Amount": 10.0
+    },
+    "Surcharge": {
+      "Type": "P",
+      "Amount": 5.0
+    },
+    "PriceListCode": 0
+  },
+  "Success": true,
+  "Error": null
+}

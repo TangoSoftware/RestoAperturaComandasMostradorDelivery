@@ -1,0 +1,42 @@
+[
+  {
+    "State": "A",
+    "Description": "Abierta"
+  },
+  {
+    "State": "X",
+    "Description": "Anulada"
+  },
+  {
+    "State": "C",
+    "Description": "Cobrada"
+  },
+  {
+    "State": "F",
+    "Description": "Facturada"
+  },
+  {
+    "State": "E",
+    "Description": "Cerrada"
+  },
+  {
+    "State": "T",
+    "Description": "Enviada Cta Cte"
+  },
+  {
+    "State": "R",
+    "Description": "Cerrada Cta Cte"
+  },
+  {
+    "State": "S",
+    "Description": "Despachada"
+  },
+  {
+    "State": "P",
+    "Description": "Despachada/Cob."
+  },
+  {
+    "State": "V",
+    "Description": "Cancelada"
+  }
+]

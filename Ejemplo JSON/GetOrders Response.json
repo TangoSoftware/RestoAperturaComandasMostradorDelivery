@@ -1,0 +1,112 @@
+{
+  "OrderList": [
+    {
+      "ExternalId": 0,
+      "RegisteredDate": "2020-06-12T00:00:00",
+      "DeliveryDate": "1800-01-01T00:00:00",
+      "PickUp": false,
+      "PickupDate": "2020-06-12T00:00:00",
+      "Notes": "",
+      "Id": 679,
+      "Customer": {
+        "Name": "KARINA LOPRETE",
+        "Email": ""
+      },
+      "Address": {
+        "Description": null,
+        "Phone": null,
+        "Notes": "",
+        "ZipCode": null,
+        "City": "01",
+        "Street": "San Martin",
+        "Number": "789",
+        "Area": "",
+        "Corner": "",
+        "Complement": null,
+        "Department": null
+      },
+      "Details": [
+        {
+          "Code": "012",
+          "Name": "AGUA CON GAS",
+          "Quantity": 1,
+          "UnitPrice": 96.23,
+          "Total": 96.23,
+          "Notes": null,
+          "OptionGroups": []
+        },
+        {
+          "Code": "623",
+          "Name": "MAGRET DE PATO",
+          "Quantity": 1,
+          "UnitPrice": 371.79,
+          "Total": 371.79,
+          "Notes": null,
+          "OptionGroups": []
+        }
+      ],
+      "Payments": [],
+      "Discounts": [],
+      "State": "A",
+      "platformId": 0,
+      "Discount": {
+        "Type": "P",
+        "Amount": 0.0000000
+      },
+      "Surcharge": {
+        "Type": "P",
+        "Amount": 0.0000000
+      },
+      "PriceListCode": 0
+    },
+    {
+      "ExternalId": 0,
+      "RegisteredDate": "2020-06-12T00:00:00",
+      "DeliveryDate": "1800-01-01T00:00:00",
+      "PickUp": true,
+      "PickupDate": "2020-06-12T00:00:00",
+      "Notes": "",
+      "Id": 680,
+      "Customer": null,
+      "Address": {
+        "Description": null,
+        "Phone": null,
+        "Notes": "",
+        "ZipCode": null,
+        "City": "",
+        "Street": "",
+        "Number": "",
+        "Area": "",
+        "Corner": "",
+        "Complement": null,
+        "Department": null
+      },
+      "Details": [
+        {
+          "Code": "415",
+          "Name": "SANDWICH DE JAMON Y QUESO",
+          "Quantity": 1,
+          "UnitPrice": 131.22,
+          "Total": 131.22,
+          "Notes": "Adicional jamón",
+          "OptionGroups": []
+        }
+      ],
+      "Payments": [],
+      "Discounts": [],
+      "State": "A",
+      "platformId": 0,
+      "Discount": {
+        "Type": "P",
+        "Amount": 0.0000000
+      },
+      "Surcharge": {
+        "Type": "P",
+        "Amount": 0.0000000
+      },
+      "PriceListCode": 0
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

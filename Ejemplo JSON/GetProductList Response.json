@@ -1,0 +1,3100 @@
+{
+  "ProductList": [
+    {
+      "Code": "001",
+      "Description": "COCA COLA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "002",
+      "Description": "COCA COLA LIGHT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "003",
+      "Description": "SPRITE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "004",
+      "Description": "SPRITE ZERO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "005",
+      "Description": "FANTA NARANJA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "006",
+      "Description": "FANTA LIGHT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "007",
+      "Description": "COCA COLA ZERO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "008",
+      "Description": "QUATRO POMELO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "009",
+      "Description": "QUATRO LIGHT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "010",
+      "Description": "SCHWEPPES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "011",
+      "Description": "AGUA SIN GAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "012",
+      "Description": "AGUA CON GAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "100",
+      "Description": "VINO BLANCO TORRONTES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "101",
+      "Description": "BLANCO PEQUEÑA VASIJA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "102",
+      "Description": "BLANCO - SAN FELIPE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "103",
+      "Description": "BLANCO- CARCASSONNE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "104",
+      "Description": "BLANCO - NORTON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "105",
+      "Description": "BLANCO - CHARDONNAY",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "106",
+      "Description": "BLANCO - PERDRIEL",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "200",
+      "Description": "VINO TINTO DE LA CASA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "201",
+      "Description": "TINTO- PEQUEÑA VASIJA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "202",
+      "Description": "TINTO - SAN FELIPE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "203",
+      "Description": "TINTO - SAN FELIPE 12 UVAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "204",
+      "Description": "TINTO - PONT L' EVEQUE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "205",
+      "Description": "TINTO - VALDERROBLES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "206",
+      "Description": "TINTO - NORTON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "207",
+      "Description": "TINTO - PERDRIEL",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "208",
+      "Description": "TINTO - BODEGAS BIANCHI",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "209",
+      "Description": "TINTO- TRAPICHE MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "210",
+      "Description": "TINTO- ETCHART PRIVADO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "301",
+      "Description": "CHANDON - COMTE DE VALMONT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "302",
+      "Description": "CHANDON - COMTE DE BELTOUR",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "303",
+      "Description": "CHANDON - TERRAZAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "304",
+      "Description": "CHANDON - CASTEL",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "400",
+      "Description": "ORFILA  - ROSADO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "401",
+      "Description": "ORFILA - EXTRA SECO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "402",
+      "Description": "ORFILA - BORGOÑA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "403",
+      "Description": "ORFILA - CABERNET SAUVIGNON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "013",
+      "Description": "JUGO NARANJA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "014",
+      "Description": "JUGO POMELO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "500",
+      "Description": "CAFE CHICO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "501",
+      "Description": "CAFE RISTRETTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "502",
+      "Description": "CAPPUCCINO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "503",
+      "Description": "CAFE DOBLE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "504",
+      "Description": "TE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "505",
+      "Description": "LECHE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "507",
+      "Description": "CORTADO CHICO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "508",
+      "Description": "CORTADO DOBLE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "509",
+      "Description": "CAFE EXPRESS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "510",
+      "Description": "CAPPUCCINO A LA ITALIANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "511",
+      "Description": "SUBMARINO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "600",
+      "Description": "LICUADO BANANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "601",
+      "Description": "LICUADO MANZANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "602",
+      "Description": "LICUADA NARANJA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "603",
+      "Description": "LICUADO DURAZNO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "604",
+      "Description": "LICUADO MIXTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "605",
+      "Description": "LICUADO FRUTILLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "700",
+      "Description": "AMERICANO GANCIA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "701",
+      "Description": "CINZANO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "702",
+      "Description": "FERNET",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "703",
+      "Description": "MARTINI",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "704",
+      "Description": "CAMPARI",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "512",
+      "Description": "MADRILEÑO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "513",
+      "Description": "IRLANDES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "514",
+      "Description": "CUBANO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "515",
+      "Description": "VIENES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "110",
+      "Description": "TOSTADAS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "111",
+      "Description": "GRISINES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "112",
+      "Description": "MAGDALENAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "113",
+      "Description": "MUFFIN",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "114",
+      "Description": "BOCADO DE RICOTA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "115",
+      "Description": "BOCADO DE CHOCOLATE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "116",
+      "Description": "BOCADO DE COCO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "117",
+      "Description": "BOCADO DE VAINILLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "118",
+      "Description": "BOCADO DE FRUTILLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "120",
+      "Description": "ENSALADA MIXTA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "121",
+      "Description": "ENSALADA WALDORF",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "122",
+      "Description": "ENSALADA PRIMAVERA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "FUERA_MENU",
+      "Description": "PRODUCTO FUERA DE MENU",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "CUB_MAY",
+      "Description": "CUBIERTOS MAYORES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "CUB_MEN",
+      "Description": "CUBIERTOS MENORES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "520",
+      "Description": "EMPANADA SALTEÑA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "530",
+      "Description": "MUSLO DESHUESADO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "531",
+      "Description": "MUSLO A LA FRANCESA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "532",
+      "Description": "CUARTO DESHUESADO AL LIMON",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "533",
+      "Description": "PECHUGA RELLENA A LA NARANJA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "534",
+      "Description": "MILANESA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "535",
+      "Description": "SUPREMA A LA MILANESA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "536",
+      "Description": "SUPREMA A LA NAPOLITANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "537",
+      "Description": "SUPREMA A LA MARYLAND",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "540",
+      "Description": "PANZOTIS DE CALABAZA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "541",
+      "Description": "SORRENTINOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "542",
+      "Description": "RAVIOLES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "543",
+      "Description": "ÑOQUIS DE PAPA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "544",
+      "Description": "TALLARINES AL HUEVO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "545",
+      "Description": "CANELONES DE VERDURA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "546",
+      "Description": "CANELONES DE RICOTA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "547",
+      "Description": "CANELONES DE RICOTA Y VERDURA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "548",
+      "Description": "LASAGNA DE JAMON",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "549",
+      "Description": "LASAGNA DE POLLO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "550",
+      "Description": "LASAGNA DE RICOTA Y VERDURA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "560",
+      "Description": "FILET DE MERLUZA A LA MILANESA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "561",
+      "Description": "FILET DE MERLUZA A LA ROMANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "562",
+      "Description": "SALMON AL AJILLO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "563",
+      "Description": "SALMON AL ROQUEFORT",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "564",
+      "Description": "SALMON GRILLE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "565",
+      "Description": "SALMON A LA PARRILLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "566",
+      "Description": "PULPO A LA GALLEGA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "567",
+      "Description": "CALAMERETIS FRITOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "568",
+      "Description": "RABAS A LA ROMANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "569",
+      "Description": "CAZUELA DE PULPO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "570",
+      "Description": "CAZUELA DE MARISCOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "571",
+      "Description": "PAELLA A LA VALENCIANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "580",
+      "Description": "MOZZARELLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "581",
+      "Description": "ANCHOAS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "582",
+      "Description": "FUGAZZA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "583",
+      "Description": "FUGAZZA CON QUESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "584",
+      "Description": "NAPOLITANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "585",
+      "Description": "PIZZA DE JAMON",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "586",
+      "Description": "CALABRESA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "587",
+      "Description": "AL ROQUEFORT",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "588",
+      "Description": "PROVOLONE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "589",
+      "Description": "DE PALMITOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "521",
+      "Description": "EMPANADA DE CARNE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "522",
+      "Description": "EMPANADA DE POLLO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "523",
+      "Description": "EMPANADA JAMON Y QUESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "524",
+      "Description": "EMPANADA DE HUMITA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "525",
+      "Description": "EMPANADA DE ROQUEFORT",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "526",
+      "Description": "EMPANADA APIO Y JAMON",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "527",
+      "Description": "EMPANADA QUESO Y CEBOLLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "528",
+      "Description": "EMPANADA COPETIN",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "410",
+      "Description": "TARTA GALLEGA DE ATUN",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "411",
+      "Description": "TARTA DE ZAPALLITOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "412",
+      "Description": "TARTA DE JAMON Y QUESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "413",
+      "Description": "TARTA DE VERDURA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "130",
+      "Description": "FLAN DE HUEVO CASERO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "131",
+      "Description": "FLAN MIXTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "132",
+      "Description": "BUDIN DE PAN",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "133",
+      "Description": "TARANTELA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "134",
+      "Description": "ENSALADA DE FRUTAS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "135",
+      "Description": "DURAZNOS EN ALMIBAR",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "136",
+      "Description": "FRUTILLAS AL MARSALLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "123",
+      "Description": "ENSALADA 1 GUSTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "124",
+      "Description": "ENSALADA 2 GUSTOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "125",
+      "Description": "ENSALADA 3 GUSTOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "126",
+      "Description": "ENSALADA 4 GUSTOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "127",
+      "Description": "ENSALADA 5 GUSTOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "137",
+      "Description": "HELADO 3 GUSTOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "138",
+      "Description": "ALMENDRADO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "139",
+      "Description": "BOMBON SUIZO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "140",
+      "Description": "CHARLOTTE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "900",
+      "Description": "PROMOCION INVIERNO",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "F",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "001",
+          "Quantity": 2
+        },
+        {
+          "IntegrationCode": "585",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "830",
+      "Description": "SALCHICHA DE VIENA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "538",
+      "Description": "SUPREMAS A LA CREMA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "910",
+      "Description": "MENU EJECUTIVO",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "001",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "003",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "011",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "131",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "135",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "139",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "180",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "410",
+          "Quantity": 2
+        },
+        {
+          "IntegrationCode": "521",
+          "Quantity": 3
+        },
+        {
+          "IntegrationCode": "523",
+          "Quantity": 3
+        },
+        {
+          "IntegrationCode": "546",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "548",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "911",
+      "Description": "MENU ESPECIAL",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "001",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "003",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "011",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "101",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "102",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "120",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "080",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "131",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "135",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "139",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "200",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "201",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "501",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "503",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "508",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "510",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "081",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "082",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "533",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "536",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "537",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "541",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "543",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "561",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "564",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "083",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "084",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "085",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "087",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "930",
+      "Description": "HAPPY HOUR CERVEZA",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "150",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "151",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "152",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "153",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "154",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "155",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "156",
+          "Quantity": 0
+        }
+      ]
+    },
+    {
+      "Code": "150",
+      "Description": "CERVEZA QUILMES CRISTAL",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "151",
+      "Description": "CERVEZA HEINEKEN",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "152",
+      "Description": "CERVEZA ISEMBECK",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "153",
+      "Description": "CERVEZA IGUANA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "154",
+      "Description": "CERVEZA BUDWEISER",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "155",
+      "Description": "CERVEZA QUILMES BOCK",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "156",
+      "Description": "CERVEZA BIECKERT AFRICANA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "420",
+      "Description": "J&B",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "421",
+      "Description": "CHIVAS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "422",
+      "Description": "CRIADORES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "430",
+      "Description": "CUBA LIBRE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "431",
+      "Description": "DAIQUIRI",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "432",
+      "Description": "DESTORNILLADOR",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "433",
+      "Description": "CAIPIRINHA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "434",
+      "Description": "TOM COLLINS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "435",
+      "Description": "BLOODY MARY",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "452",
+      "Description": "DULCE DE LECHE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "453",
+      "Description": "TIA MARIA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "454",
+      "Description": "MENTA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "141",
+      "Description": "PANQUEQUE DE MANZANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "142",
+      "Description": "PANQUEQUE DE BANANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "143",
+      "Description": "PANQUEQUE DE DULCE DE LECHE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "144",
+      "Description": "PANQUEQUE ESPECIAL",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "831",
+      "Description": "TABLA DE FIAMBRES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "832",
+      "Description": "TABLA DE QUESOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "833",
+      "Description": "TABLA DE AHUMADOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "834",
+      "Description": "TABLA ESPECIAL DE LA CASA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "415",
+      "Description": "SANDWICH DE JAMON Y QUESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "416",
+      "Description": "SANDWICH, JAMON, QUESO, TOMATE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "417",
+      "Description": "SANDWICH, CRUDO Y QUESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "128",
+      "Description": "BIFE DE CHORIZO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "129",
+      "Description": "MATAMBRITO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "516",
+      "Description": "CAFE CON LECHE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "610",
+      "Description": "MEDIALUNA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "611",
+      "Description": "PASTAFROLA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "612",
+      "Description": "TARTA DE RICOTA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "613",
+      "Description": "TARTA DE FRUTILLA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "614",
+      "Description": "LEMON PIE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "615",
+      "Description": "SELVA NEGRA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "870",
+      "Description": "SALSA BLANCA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "871",
+      "Description": "SALSA POMAROLA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "872",
+      "Description": "SALSA CUATRO QUESOS",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "873",
+      "Description": "SALSA MIXTA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "590",
+      "Description": "SOPA CREMA DE TOMATE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "591",
+      "Description": "SOPA CREMA DE ESPARRAGOS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "592",
+      "Description": "SOPA CREMA DE ARVEJAS",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "593",
+      "Description": "SOPA CREMA DE ZAPALLO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "912",
+      "Description": "PROMO NOCHE",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "001",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "002",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "003",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "004",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "005",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "006",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "007",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "008",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "009",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "010",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "011",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "012",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "013",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "014",
+          "Quantity": 4
+        },
+        {
+          "IntegrationCode": "100",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "519",
+      "Description": "EMPANADA DE CARNE PICANTE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "518",
+      "Description": "EMPANADA DE ATUN",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "517",
+      "Description": "EMPANADA DE VERDURA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "913",
+      "Description": "PROMO EMPANADAS",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "517",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "518",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "519",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "520",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "521",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "522",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "523",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "524",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "525",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "526",
+          "Quantity": 12
+        },
+        {
+          "IntegrationCode": "527",
+          "Quantity": 12
+        }
+      ]
+    },
+    {
+      "Code": "914",
+      "Description": "PROMO JUVENIL",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "013",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "516",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "610",
+          "Quantity": 3
+        },
+        {
+          "IntegrationCode": "613",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "614",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "616",
+      "Description": "BROWNIES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "594",
+      "Description": "SOPA CREMA DE CHOCLO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "Ajuste",
+      "Description": "AJUSTE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "879",
+      "Description": "SALSA FILETO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "915",
+      "Description": "PROMO PASTAS",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "006",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "100",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "200",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "540",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "541",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "542",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "543",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "544",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "545",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "546",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "548",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "549",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "550",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "870",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "871",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "872",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "873",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "879",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "916",
+      "Description": "PROMO SANDWICH",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "001",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "002",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "003",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "004",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "418",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "821",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "830",
+          "Quantity": 1
+        },
+        {
+          "IntegrationCode": "855",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "Code": "418",
+      "Description": "SANDWICH DE LOMO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "880",
+      "Description": "ALBONDIGAS",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "881",
+      "Description": "PAN DE CARNE",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "882",
+      "Description": "PESCETO MECHADO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "883",
+      "Description": "BIFES A LA CRIOLLA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "884",
+      "Description": "ASADO A LA PARRILLA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "180",
+      "Description": "BIFE DE LOMO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "181",
+      "Description": "LOMITO AL PLATO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "182",
+      "Description": "PAILARD DE LOMO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "183",
+      "Description": "LOMO A LA PIMIENTA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "184",
+      "Description": "LOMO STROGONOFF",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "950",
+      "Description": "TOSTADO JAMON Y QUESO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "951",
+      "Description": "SANDWICH ENVASADO PECETO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "952",
+      "Description": "SANDWICH ENVASADO LOMITO AHUM",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "953",
+      "Description": "SANDWICH ENV POLLO RUCULA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "960",
+      "Description": "TARTA NAPOLITANA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "080",
+      "Description": "CAMARONES CON PALTA Y PALMITO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "081",
+      "Description": "CARPACCIO SALMON HOJAS VERDES",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "082",
+      "Description": "PESCA DEL DIA MARINADO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "083",
+      "Description": "PAVITA CON SALSA PICANTE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "084",
+      "Description": "VITHEL TONE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "085",
+      "Description": "SALPICON DE PAVITA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "086",
+      "Description": "RABAS A LA ROMANA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "087",
+      "Description": "CHIPIRONES A LA PROVENZAL",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "455",
+      "Description": "CHOCOLATE",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "617",
+      "Description": "TORTA BOMBON",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "618",
+      "Description": "TORTA VAINILLIN",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "215",
+      "Description": "LUIGI BOSCA DOC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "216",
+      "Description": "NORTON ROBLE DOC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "217",
+      "Description": "TERRAZAS DE LOS ANDES RESERVA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "218",
+      "Description": "FINCA LA LINDA MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "219",
+      "Description": "TRUMPETER MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "220",
+      "Description": "SALENTEIN ROBLE MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "221",
+      "Description": "TRAPICHE MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "222",
+      "Description": "FOND DE CAVE RESERVA MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "223",
+      "Description": "BENJAMIN NIETO MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "224",
+      "Description": "NIETO SENETINER MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "015",
+      "Description": "AGUA SABORIZADA POMELO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "016",
+      "Description": "AGUA SABOR NARANJA DURAZNO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "017",
+      "Description": "AGUA SABORIZADA NARANJA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "018",
+      "Description": "AGUA SABORIZADA LIMA LIMON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "211",
+      "Description": "RUTINI CABERNET SAUVIGNON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "212",
+      "Description": "LUIGI BOSCA RESERVA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "213",
+      "Description": "TERRAZAS DE LOS ANDES RESERVA",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "214",
+      "Description": "SALENTEIN ROBLE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "225",
+      "Description": "FOND DE CAVE RESERVA CABERNET",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "226",
+      "Description": "TRUMPETER",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "227",
+      "Description": "NIETO SENETINER CABERNET",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "228",
+      "Description": "FOND DE CAVE TRAPICHE CABERNET",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "229",
+      "Description": "BENJAMIN NIETO SENETINER",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "230",
+      "Description": "TRAPICHE CABERNET SAUVIGNON",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "231",
+      "Description": "LUIGI BOSCA RESERVA SIRAH",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "232",
+      "Description": "SALENTEIN ROBLE SIRAH",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "233",
+      "Description": "FOND DE CAVE RESERVA SIRAH",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "234",
+      "Description": "NIETO SENETINER SIRAH",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "235",
+      "Description": "RUTINI MERLOT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "236",
+      "Description": "TERRAZAS DE LOS ANDES MERLOT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "237",
+      "Description": "TRUMPETER MERLOT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "238",
+      "Description": "NIETO SENETINER MERLOT",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "239",
+      "Description": "GUIADO 2005 TEMPRANILLO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "240",
+      "Description": "FINCA LA LINDA TEMPRANILLO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "241",
+      "Description": "NORTON TEMPRANILLO",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "242",
+      "Description": "LUIGI BOSCA PINOT NOIR",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "243",
+      "Description": "ALAMOS PINOT NOIR",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "244",
+      "Description": "COLECCION PRIVADA PINOT NOIR",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "245",
+      "Description": "GRAN RESERVA DE CORTE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "246",
+      "Description": "RUTINI DE CORTE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "247",
+      "Description": "TRUMPETER RESERVE DE CORTE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "248",
+      "Description": "CLOS DU MOULIN DE CORTE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "249",
+      "Description": "SAN FELIPE DE CORTE",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "250",
+      "Description": "RUTINI CHARDONNAY",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "251",
+      "Description": "LUIGI BOSCA RESERVA CHARDONNAY",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "252",
+      "Description": "TERRAZAS DELOS ANDES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "253",
+      "Description": "TRUMPETER CHARDONNAY",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "254",
+      "Description": "NIETO SENETINER CHARDONNAY",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "255",
+      "Description": "SAN TELMO SAUVIGNON BLANC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "256",
+      "Description": "TRAPICHE SAUVIGNON BLANC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "257",
+      "Description": "TERRAZAS DELOS ANDES TORRONTES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "258",
+      "Description": "ETCHART PRIVADO TORRONTES",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "619",
+      "Description": "PINTXO DE JAMÓN CRUDO, RUCULA",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "620",
+      "Description": "PINTXO DE QUESO AZUL, PERAS",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "621",
+      "Description": "TORTILLA DEL LITORAL",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "622",
+      "Description": "CROQUETAS CASERAS DE JAMÓN",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "623",
+      "Description": "MAGRET DE PATO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "624",
+      "Description": "PAPARDELLE CASERO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "625",
+      "Description": "SALMONETES ASADOS",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "626",
+      "Description": "PACÚ ASADO",
+      "Profile": "V",
+      "Type": "M",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "260",
+      "Description": "ENZO BIANCHI GRAN CRU MALBEC",
+      "Profile": "A",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "750",
+      "Description": "RISTRETTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "751",
+      "Description": "ARPEGGIO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "752",
+      "Description": "ROMA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "753",
+      "Description": "INDRIYA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "754",
+      "Description": "LIVANTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "755",
+      "Description": "CAPRICCIO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "756",
+      "Description": "VOLLUTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "757",
+      "Description": "COSI",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "758",
+      "Description": "DULSAO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "759",
+      "Description": "ROSABAYA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "760",
+      "Description": "DESCAFFEINATO INTESO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "761",
+      "Description": "DESCAFFEINATO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "762",
+      "Description": "DESCAFFEINATO LUNGO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "763",
+      "Description": "FORTISSIO LUNGO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "764",
+      "Description": "VIVALTO LUNGO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "765",
+      "Description": "FINEZZO LUNGO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "767",
+      "Description": "RISTRETTO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "766",
+      "Description": "DESCAFFEINATO INTENSO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "768",
+      "Description": "ARPEGGIO",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "769",
+      "Description": "INDRIYA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "770",
+      "Description": "ROSABAYA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "901",
+      "Description": "MENU DEL DIA",
+      "Profile": "V",
+      "Type": "A",
+      "GroupType": "",
+      "OptionGroup": []
+    },
+    {
+      "Code": "185",
+      "Description": "PIZZA DOS SABORES",
+      "Profile": "V",
+      "Type": "P",
+      "GroupType": "V",
+      "OptionGroup": [
+        {
+          "IntegrationCode": "858",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "585",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "581",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "582",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "583",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "584",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "586",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "587",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "588",
+          "Quantity": 0
+        },
+        {
+          "IntegrationCode": "589",
+          "Quantity": 0
+        }
+      ]
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

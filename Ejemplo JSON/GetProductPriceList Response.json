@@ -1,0 +1,4756 @@
+{
+  "PriceList": [
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 122.4700000,
+      "ProducCode": "013",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 122.4700000,
+      "ProducCode": "013",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 96.2300000,
+      "ProducCode": "001",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 721.7100000,
+      "ProducCode": "086",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 817.9400000,
+      "ProducCode": "087",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 91.8500000,
+      "ProducCode": "110",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 43.7400000,
+      "ProducCode": "111",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 56.8600000,
+      "ProducCode": "112",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 56.8600000,
+      "ProducCode": "112",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 83.1100000,
+      "ProducCode": "114",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 83.1100000,
+      "ProducCode": "114",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 83.1100000,
+      "ProducCode": "114",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 83.1100000,
+      "ProducCode": "114",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 83.1100000,
+      "ProducCode": "114",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 249.3200000,
+      "ProducCode": "120",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 314.9300000,
+      "ProducCode": "122",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 183.7100000,
+      "ProducCode": "123",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 196.8300000,
+      "ProducCode": "124",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 223.0700000,
+      "ProducCode": "126",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 236.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 538.0000000,
+      "ProducCode": "129",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 196.8300000,
+      "ProducCode": "124",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 190.2700000,
+      "ProducCode": "131",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 183.7100000,
+      "ProducCode": "123",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 190.2700000,
+      "ProducCode": "131",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 172.7700000,
+      "ProducCode": "132",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 293.0600000,
+      "ProducCode": "144",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 118.1000000,
+      "ProducCode": "150",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 817.9400000,
+      "ProducCode": "087",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 813.5600000,
+      "ProducCode": "181",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 791.6900000,
+      "ProducCode": "182",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 883.5500000,
+      "ProducCode": "183",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 896.6700000,
+      "ProducCode": "184",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 109.3500000,
+      "ProducCode": "200",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 253.6900000,
+      "ProducCode": "204",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 262.4400000,
+      "ProducCode": "205",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 275.5600000,
+      "ProducCode": "207",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 288.6800000,
+      "ProducCode": "208",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 328.0500000,
+      "ProducCode": "209",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 341.1700000,
+      "ProducCode": "210",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1430.3000000,
+      "ProducCode": "211",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 975.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 975.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 371.7900000,
+      "ProducCode": "216",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 603.6100000,
+      "ProducCode": "218",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 262.4400000,
+      "ProducCode": "205",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 262.4400000,
+      "ProducCode": "205",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 371.7900000,
+      "ProducCode": "216",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 603.6100000,
+      "ProducCode": "218",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 301.8100000,
+      "ProducCode": "229",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 262.4400000,
+      "ProducCode": "205",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 975.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1430.3000000,
+      "ProducCode": "211",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 603.6100000,
+      "ProducCode": "218",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 371.7900000,
+      "ProducCode": "216",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1430.3000000,
+      "ProducCode": "211",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1207.2200000,
+      "ProducCode": "245",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1430.3000000,
+      "ProducCode": "211",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 603.6100000,
+      "ProducCode": "218",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 1430.3000000,
+      "ProducCode": "211",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 975.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 603.6100000,
+      "ProducCode": "218",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 673.6000000,
+      "ProducCode": "213",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 301.8100000,
+      "ProducCode": "229",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 301.8100000,
+      "ProducCode": "229",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 371.7900000,
+      "ProducCode": "216",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 411.1600000,
+      "ProducCode": "301",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 411.1600000,
+      "ProducCode": "301",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 411.1600000,
+      "ProducCode": "301",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 411.1600000,
+      "ProducCode": "301",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 278.6200000,
+      "ProducCode": "400",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 278.6200000,
+      "ProducCode": "400",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 278.6200000,
+      "ProducCode": "400",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 278.6200000,
+      "ProducCode": "400",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 131.2200000,
+      "ProducCode": "415",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 144.3400000,
+      "ProducCode": "416",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 189.5400000,
+      "ProducCode": "418",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 78.7300000,
+      "ProducCode": "500",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 104.9800000,
+      "ProducCode": "503",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 78.7300000,
+      "ProducCode": "500",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 59.0500000,
+      "ProducCode": "505",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 78.7300000,
+      "ProducCode": "500",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 104.9800000,
+      "ProducCode": "503",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 78.7300000,
+      "ProducCode": "500",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 98.4200000,
+      "ProducCode": "512",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 104.9800000,
+      "ProducCode": "503",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 104.9800000,
+      "ProducCode": "503",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 85.2900000,
+      "ProducCode": "501",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 37.9100000,
+      "ProducCode": "517",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 214.3300000,
+      "ProducCode": "530",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 240.5700000,
+      "ProducCode": "531",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 201.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 288.6800000,
+      "ProducCode": "208",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 161.8400000,
+      "ProducCode": "410",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 174.9600000,
+      "ProducCode": "535",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 236.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 306.1800000,
+      "ProducCode": "538",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 249.3200000,
+      "ProducCode": "120",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 249.3200000,
+      "ProducCode": "120",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 249.3200000,
+      "ProducCode": "120",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 533.6300000,
+      "ProducCode": "562",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 559.8700000,
+      "ProducCode": "563",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 507.3800000,
+      "ProducCode": "564",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 507.3800000,
+      "ProducCode": "564",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 498.6400000,
+      "ProducCode": "566",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 489.8900000,
+      "ProducCode": "567",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 555.5000000,
+      "ProducCode": "568",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 476.7700000,
+      "ProducCode": "571",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 380.5400000,
+      "ProducCode": "580",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 398.0300000,
+      "ProducCode": "581",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 380.5400000,
+      "ProducCode": "580",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 393.6600000,
+      "ProducCode": "540",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 380.5400000,
+      "ProducCode": "580",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 406.7800000,
+      "ProducCode": "585",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 406.7800000,
+      "ProducCode": "585",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 406.7800000,
+      "ProducCode": "585",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 406.7800000,
+      "ProducCode": "585",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 135.5900000,
+      "ProducCode": "590",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 135.5900000,
+      "ProducCode": "590",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 135.5900000,
+      "ProducCode": "590",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 135.5900000,
+      "ProducCode": "590",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 135.5900000,
+      "ProducCode": "590",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 39.3700000,
+      "ProducCode": "610",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 124.6600000,
+      "ProducCode": "600",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 236.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 236.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 279.9400000,
+      "ProducCode": "121",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 223.0700000,
+      "ProducCode": "126",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 371.7900000,
+      "ProducCode": "216",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 450.5200000,
+      "ProducCode": "222",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 524.8800000,
+      "ProducCode": "128",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 209.9500000,
+      "ProducCode": "125",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 227.4500000,
+      "ProducCode": "700",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 109.3500000,
+      "ProducCode": "200",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 590.4900000,
+      "ProducCode": "831",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 472.3900000,
+      "ProducCode": "832",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 833.2500000,
+      "ProducCode": "833",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 984.1500000,
+      "ProducCode": "834",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 69.9800000,
+      "ProducCode": "870",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 69.9800000,
+      "ProducCode": "870",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 69.9800000,
+      "ProducCode": "870",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 69.9800000,
+      "ProducCode": "870",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 69.9800000,
+      "ProducCode": "870",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 266.8100000,
+      "ProducCode": "545",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 301.8100000,
+      "ProducCode": "229",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 384.9100000,
+      "ProducCode": "882",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 419.9000000,
+      "ProducCode": "883",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 747.9500000,
+      "ProducCode": "884",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 131.2200000,
+      "ProducCode": "415",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 542.3800000,
+      "ProducCode": "910",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 721.7100000,
+      "ProducCode": "086",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 398.0300000,
+      "ProducCode": "581",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 498.6400000,
+      "ProducCode": "566",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 306.1800000,
+      "ProducCode": "538",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 411.1600000,
+      "ProducCode": "301",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 249.3200000,
+      "ProducCode": "120",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 109.3500000,
+      "ProducCode": "200",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 193.3300000,
+      "ProducCode": "951",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 238.8200000,
+      "ProducCode": "952",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 238.8200000,
+      "ProducCode": "952",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 183.7100000,
+      "ProducCode": "123",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 30.6200000,
+      "ProducCode": "CUB_MAY",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 26.2400000,
+      "ProducCode": "CUB_MEN",
+      "PriceListCode": 1
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 122.4000000,
+      "ProducCode": "013",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 122.4000000,
+      "ProducCode": "013",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 594.0000000,
+      "ProducCode": "080",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 565.2000000,
+      "ProducCode": "081",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 619.2000000,
+      "ProducCode": "082",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 457.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 702.0000000,
+      "ProducCode": "086",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 727.2000000,
+      "ProducCode": "087",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 46.8000000,
+      "ProducCode": "111",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 54.0000000,
+      "ProducCode": "112",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 54.0000000,
+      "ProducCode": "112",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 79.2000000,
+      "ProducCode": "114",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 79.2000000,
+      "ProducCode": "114",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 79.2000000,
+      "ProducCode": "114",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 79.2000000,
+      "ProducCode": "114",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 79.2000000,
+      "ProducCode": "114",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 162.0000000,
+      "ProducCode": "123",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 172.8000000,
+      "ProducCode": "124",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 183.6000000,
+      "ProducCode": "125",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 457.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 251.1000000,
+      "ProducCode": "130",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.0000000,
+      "ProducCode": "131",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 234.9000000,
+      "ProducCode": "134",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.0000000,
+      "ProducCode": "131",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 221.4000000,
+      "ProducCode": "132",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 108.0000000,
+      "ProducCode": "150",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 702.0000000,
+      "ProducCode": "086",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 694.8000000,
+      "ProducCode": "181",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 673.2000000,
+      "ProducCode": "182",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 748.8000000,
+      "ProducCode": "183",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 766.8000000,
+      "ProducCode": "184",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 208.8000000,
+      "ProducCode": "204",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1231.2000000,
+      "ProducCode": "211",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 842.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 842.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 388.8000000,
+      "ProducCode": "222",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 388.8000000,
+      "ProducCode": "222",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 842.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 388.8000000,
+      "ProducCode": "222",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1231.2000000,
+      "ProducCode": "211",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 388.8000000,
+      "ProducCode": "222",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1231.2000000,
+      "ProducCode": "211",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1036.8000000,
+      "ProducCode": "245",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1231.2000000,
+      "ProducCode": "211",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1231.2000000,
+      "ProducCode": "211",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 842.4000000,
+      "ProducCode": "212",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 583.2000000,
+      "ProducCode": "213",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 388.8000000,
+      "ProducCode": "222",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 4212.0000000,
+      "ProducCode": "260",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.3600000,
+      "ProducCode": "400",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.3600000,
+      "ProducCode": "400",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.3600000,
+      "ProducCode": "400",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.3600000,
+      "ProducCode": "400",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 154.8000000,
+      "ProducCode": "410",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 122.4000000,
+      "ProducCode": "013",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 129.6000000,
+      "ProducCode": "416",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 144.0000000,
+      "ProducCode": "417",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 162.0000000,
+      "ProducCode": "123",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 198.0000000,
+      "ProducCode": "422",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 8.0000000,
+      "ProducCode": "450",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 70.2000000,
+      "ProducCode": "500",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 70.2000000,
+      "ProducCode": "500",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 54.0000000,
+      "ProducCode": "112",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 70.2000000,
+      "ProducCode": "500",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 70.2000000,
+      "ProducCode": "500",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 81.0000000,
+      "ProducCode": "501",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 38.4000000,
+      "ProducCode": "517",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 208.8000000,
+      "ProducCode": "204",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 208.8000000,
+      "ProducCode": "204",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 208.8000000,
+      "ProducCode": "204",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 367.2000000,
+      "ProducCode": "540",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 345.6000000,
+      "ProducCode": "541",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 345.6000000,
+      "ProducCode": "541",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 230.4000000,
+      "ProducCode": "201",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 457.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 486.0000000,
+      "ProducCode": "568",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 316.8000000,
+      "ProducCode": "580",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 316.8000000,
+      "ProducCode": "580",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 316.8000000,
+      "ProducCode": "580",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 453.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 145.8000000,
+      "ProducCode": "600",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 48.6000000,
+      "ProducCode": "610",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 210.6000000,
+      "ProducCode": "617",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 210.6000000,
+      "ProducCode": "617",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 194.4000000,
+      "ProducCode": "126",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 356.4000000,
+      "ProducCode": "623",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 410.4000000,
+      "ProducCode": "581",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 486.0000000,
+      "ProducCode": "568",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 486.0000000,
+      "ProducCode": "568",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 205.2000000,
+      "ProducCode": "127",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 518.4000000,
+      "ProducCode": "218",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 469.8000000,
+      "ProducCode": "832",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 734.4000000,
+      "ProducCode": "833",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 988.2000000,
+      "ProducCode": "834",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 367.2000000,
+      "ProducCode": "540",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 648.0000000,
+      "ProducCode": "884",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 129.6000000,
+      "ProducCode": "416",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 457.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 565.2000000,
+      "ProducCode": "081",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 432.0000000,
+      "ProducCode": "913",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 168.4800000,
+      "ProducCode": "951",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 210.6000000,
+      "ProducCode": "617",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 210.6000000,
+      "ProducCode": "617",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 162.0000000,
+      "ProducCode": "123",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 32.4000000,
+      "ProducCode": "CUB_MEN",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 648.0000000,
+      "ProducCode": "884",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 619.2000000,
+      "ProducCode": "082",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 673.2000000,
+      "ProducCode": "182",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 511.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 432.0000000,
+      "ProducCode": "913",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 475.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 846.0000000,
+      "ProducCode": "086",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 781.2000000,
+      "ProducCode": "087",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 100.8000000,
+      "ProducCode": "110",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 54.0000000,
+      "ProducCode": "112",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 90.0000000,
+      "ProducCode": "200",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 270.0000000,
+      "ProducCode": "122",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 507.6000000,
+      "ProducCode": "128",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 511.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 291.6000000,
+      "ProducCode": "130",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 283.5000000,
+      "ProducCode": "131",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 275.4000000,
+      "ProducCode": "134",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 283.5000000,
+      "ProducCode": "131",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 261.9000000,
+      "ProducCode": "132",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 313.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 756.0000000,
+      "ProducCode": "180",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 748.8000000,
+      "ProducCode": "183",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 727.2000000,
+      "ProducCode": "087",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 802.8000000,
+      "ProducCode": "183",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 820.8000000,
+      "ProducCode": "184",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 100.8000000,
+      "ProducCode": "110",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 219.6000000,
+      "ProducCode": "204",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 237.6000000,
+      "ProducCode": "208",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 291.6000000,
+      "ProducCode": "130",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1332.0000000,
+      "ProducCode": "211",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 910.8000000,
+      "ProducCode": "212",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 910.8000000,
+      "ProducCode": "212",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 489.6000000,
+      "ProducCode": "217",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 561.6000000,
+      "ProducCode": "218",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 561.6000000,
+      "ProducCode": "218",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 489.6000000,
+      "ProducCode": "217",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 910.8000000,
+      "ProducCode": "212",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 489.6000000,
+      "ProducCode": "217",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1332.0000000,
+      "ProducCode": "211",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 489.6000000,
+      "ProducCode": "217",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 561.6000000,
+      "ProducCode": "218",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 1332.0000000,
+      "ProducCode": "211",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1123.2000000,
+      "ProducCode": "245",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1332.0000000,
+      "ProducCode": "211",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 561.6000000,
+      "ProducCode": "218",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1332.0000000,
+      "ProducCode": "211",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 910.8000000,
+      "ProducCode": "212",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 561.6000000,
+      "ProducCode": "218",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 630.0000000,
+      "ProducCode": "213",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 489.6000000,
+      "ProducCode": "217",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 4561.2000000,
+      "ProducCode": "260",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 266.7600000,
+      "ProducCode": "400",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 266.7600000,
+      "ProducCode": "400",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 266.7600000,
+      "ProducCode": "400",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 266.7600000,
+      "ProducCode": "400",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 176.4000000,
+      "ProducCode": "100",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 165.6000000,
+      "ProducCode": "411",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 165.6000000,
+      "ProducCode": "411",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 165.6000000,
+      "ProducCode": "411",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 133.2000000,
+      "ProducCode": "534",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 140.4000000,
+      "ProducCode": "416",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 154.8000000,
+      "ProducCode": "410",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 172.8000000,
+      "ProducCode": "124",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 338.4000000,
+      "ProducCode": "420",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 11.0000000,
+      "ProducCode": "450",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 70.2000000,
+      "ProducCode": "500",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 86.4000000,
+      "ProducCode": "001",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 102.6000000,
+      "ProducCode": "512",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 113.4000000,
+      "ProducCode": "611",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 97.2000000,
+      "ProducCode": "503",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 42.0000000,
+      "ProducCode": "517",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 356.4000000,
+      "ProducCode": "623",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 356.4000000,
+      "ProducCode": "623",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 226.8000000,
+      "ProducCode": "207",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 291.6000000,
+      "ProducCode": "130",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 370.8000000,
+      "ProducCode": "538",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 356.4000000,
+      "ProducCode": "623",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 356.4000000,
+      "ProducCode": "623",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 349.2000000,
+      "ProducCode": "301",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 302.4000000,
+      "ProducCode": "545",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 302.4000000,
+      "ProducCode": "545",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 302.4000000,
+      "ProducCode": "545",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 252.0000000,
+      "ProducCode": "548",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 252.0000000,
+      "ProducCode": "548",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 435.6000000,
+      "ProducCode": "562",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 446.4000000,
+      "ProducCode": "563",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 367.2000000,
+      "ProducCode": "540",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 370.8000000,
+      "ProducCode": "538",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 738.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 486.0000000,
+      "ProducCode": "568",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 511.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 705.6000000,
+      "ProducCode": "569",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 738.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 756.0000000,
+      "ProducCode": "180",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 360.0000000,
+      "ProducCode": "580",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 367.2000000,
+      "ProducCode": "540",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 399.6000000,
+      "ProducCode": "583",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 367.2000000,
+      "ProducCode": "540",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 468.0000000,
+      "ProducCode": "566",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 522.0000000,
+      "ProducCode": "589",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 187.2000000,
+      "ProducCode": "100",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 151.2000000,
+      "ProducCode": "411",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 54.0000000,
+      "ProducCode": "112",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.0000000,
+      "ProducCode": "131",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 243.0000000,
+      "ProducCode": "131",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 280.8000000,
+      "ProducCode": "210",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 208.8000000,
+      "ProducCode": "204",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 381.6000000,
+      "ProducCode": "623",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 446.4000000,
+      "ProducCode": "563",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 522.0000000,
+      "ProducCode": "589",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 522.0000000,
+      "ProducCode": "589",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 216.0000000,
+      "ProducCode": "120",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 248.4000000,
+      "ProducCode": "533",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 259.2000000,
+      "ProducCode": "144",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 100.8000000,
+      "ProducCode": "110",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 550.8000000,
+      "ProducCode": "831",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 502.2000000,
+      "ProducCode": "832",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 815.4000000,
+      "ProducCode": "833",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 1236.6000000,
+      "ProducCode": "834",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 68.4000000,
+      "ProducCode": "870",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 68.4000000,
+      "ProducCode": "870",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 68.4000000,
+      "ProducCode": "870",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 68.4000000,
+      "ProducCode": "870",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 68.4000000,
+      "ProducCode": "870",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 324.0000000,
+      "ProducCode": "216",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 392.4000000,
+      "ProducCode": "882",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 421.2000000,
+      "ProducCode": "085",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 729.0000000,
+      "ProducCode": "884",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 140.4000000,
+      "ProducCode": "416",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 486.0000000,
+      "ProducCode": "568",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 594.0000000,
+      "ProducCode": "080",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 457.2000000,
+      "ProducCode": "083",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 295.2000000,
+      "ProducCode": "562",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 378.0000000,
+      "ProducCode": "084",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 241.2000000,
+      "ProducCode": "121",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 129.6000000,
+      "ProducCode": "416",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 118.8000000,
+      "ProducCode": "930",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 182.5200000,
+      "ProducCode": "951",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 224.6400000,
+      "ProducCode": "952",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 224.6400000,
+      "ProducCode": "952",
+      "PriceListCode": 3
+    },
+    {
+      "Price": 172.8000000,
+      "ProducCode": "124",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 64.8000000,
+      "ProducCode": "870",
+      "PriceListCode": 2
+    },
+    {
+      "Price": 32.4000000,
+      "ProducCode": "CUB_MEN",
+      "PriceListCode": 2
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

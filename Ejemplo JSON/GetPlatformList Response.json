@@ -1,0 +1,18 @@
+{
+  "PlatformList": [
+    {
+      "Id": 2,
+      "Description": "Nexo Delivery"
+    },
+    {
+      "Id": 1,
+      "Description": "Restó"
+    }
+ {
+      "Id": 4,
+      "Description": "Uber"
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

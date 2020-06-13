@@ -1,0 +1,46 @@
+{
+  "PaymentTypeList": [
+    {
+      "Description": "EFECTIVO - PESOS",
+      "Code": 1
+    },
+    {
+      "Description": "TARJETA - VISA - PESOS",
+      "Code": 5
+    },
+    {
+      "Description": "TARJETA - MASTERCARD - PESOS",
+      "Code": 6
+    },
+    {
+      "Description": "TARJETA - VISA - DOLAR",
+      "Code": 7
+    },
+    {
+      "Description": "EFECTIVO - DOLAR",
+      "Code": 8
+    },
+    {
+      "Description": "TICKETS - RESTAURANT",
+      "Code": 10
+    },
+    {
+      "Description": "TICKETS - CANASTA",
+      "Code": 11
+    },
+    {
+      "Description": "CHEQUES - PESOS",
+      "Code": 15
+    },
+    {
+      "Description": "TARJETA - AMERICAN - PESOS",
+      "Code": 12
+    },
+    {
+      "Description": "EFECTIVO - EURO",
+      "Code": 9
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

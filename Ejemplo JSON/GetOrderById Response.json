@@ -1,0 +1,51 @@
+{
+  "Order": {
+    "ExternalId": 0,
+    "RegisteredDate": "2020-06-12T00:00:00",
+    "DeliveryDate": "1800-01-01T00:00:00",
+    "PickUp": true,
+    "PickupDate": "2020-06-12T00:00:00",
+    "Notes": "",
+    "Id": 680,
+    "Customer": null,
+    "Address": {
+      "Description": null,
+      "Phone": null,
+      "Notes": "",
+      "ZipCode": null,
+      "City": "",
+      "Street": "",
+      "Number": "",
+      "Area": "",
+      "Corner": "",
+      "Complement": null,
+      "Department": null
+    },
+    "Details": [
+      {
+        "Code": "415",
+        "Name": "SANDWICH DE JAMON Y QUESO",
+        "Quantity": 1,
+        "UnitPrice": 131.22,
+        "Total": 131.22,
+        "Notes": "Adicional jamón",
+        "OptionGroups": []
+      }
+    ],
+    "Payments": [],
+    "Discounts": [],
+    "State": "A",
+    "platformId": 0,
+    "Discount": {
+      "Type": "P",
+      "Amount": 0.0000000
+    },
+    "Surcharge": {
+      "Type": "P",
+      "Amount": 0.0000000
+    },
+    "PriceListCode": 0
+  },
+  "Success": true,
+  "Error": null
+}

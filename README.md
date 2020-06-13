@@ -11,10 +11,19 @@ Desde Restô se podrá:
 ### Contenido de la documentación 
   + [Versiones soportadas de Tango Restó](#versiones)
   + [Arquitectura](#arquitectura)
-
- + [Métodos](#metodos)
+  + [Métodos](#metodos)
     + [1. AddOrder](#addorder)
-
+    + [2. GetOrders](#GetOrders)
+    + [3. GetOrderbyId](#GetOrderbyId)
+    + [4. GetOrderbyExternalId](#GetOrderbyExternalId)
+    + [5. CancelOrder](#CancelOrder)
+    + [6. GetPlatFormList](#GetPlatFormList)
+    + [7. GetPaymenetTypes](#GetPaymenetTypes)
+    + [8. GetPriceList](#GetPriceList)
+    + [9. GetStateOrderList](#GetStateOrderList)
+    + [10. GetProductList](#GetProductList)
+    + [11. GetProductPriceList](#GetProductPriceList)
++ [Código de errores](#errores)
 
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
@@ -22,16 +31,21 @@ Desde Restô se podrá:
 
 La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.xxxx o superior**.
 
+
 <a name="arquitectura"></a>
 ## Arquitectura
+[<sub>Volver</sub>](#inicio)
 
 ![imagenapi](https://github.com/TangoSoftware/RestoAperturaComandasMostradorDelivery/blob/master/00.jpg)
 
 <a name="metodos"></a>
 ## Métodos
+[<sub>Volver</sub>](#inicio)
 
 <a name="addorder"></a>
 ### 1. AddOrder (POS)
+[<sub>Volver</sub>](#inicio)
+
   Este método permite registrar una nueva orden de pedido en la base de datos del sistema Tango Restó
 
 ####   Request
@@ -231,9 +245,12 @@ Estos datos serán necesario si la orden tiene algún tipo de medio de pago regi
 |  **Code** | Si | Representa el código de la cuenta de caja  | Varchar(15) | 1 |
 |  **PaymentAmount** | Si | Representa el monto abonado con la cuenta de caja  | DECIMAL_TG | 20 |
 | **Online** | Si | Permite visualiar en la comanda la cuenta de caja que ya tiene asociada al momento de abonar la comanda | Varchar(10) | True  |
+<br/><br/>
 
-
+<a name="GetOrders"></a>
 ### 2. GetOrders (GET)
+[<sub>Volver</sub>](#inicio)
+
   Devuelve las comandas del módulo delivery y/o mostrador registradas en Tango Restó durante las últimas   24 horas; las comandas pudieron ser generadas desde el sistema Tango Restó o desde una aplicación  externa.
   
 ####   Request
@@ -250,7 +267,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
 
+<a name="GetOrderbyId"></a>
 ### 3. GetOrderbyId (GET)
+[<sub>Volver</sub>](#inicio)
+
    Devuelve una comanda específica a través del Id de la comanda registrada en Tango Restó.   
   
 ####   Request
@@ -277,7 +297,10 @@ Id : 508
 
 <br/><br/>
 
+<a name="GetOrderbyExternalId"></a>
 ### 4. GetOrderbyExternalId (GET)
+[<sub>Volver</sub>](#inicio)
+
    Devuelve una comanda especifica pasando como parámetros el ID de la comanda que viene de la aplicación externa y, el ID de la plataforma de origen
   
 ####   Request
@@ -305,7 +328,10 @@ Id : 508, "PlatformId" : 5
 
 <br/><br/>
 
+<a name="CancelOrder"></a>
 ### 5. CancelOrder (POST)
+[<sub>Volver</sub>](#inicio)
+
    Este método permite anular una comanda, para ello es necesario enviar como parámetros el Id de la comanda de Tango Restó
   
 ####   Request
@@ -332,14 +358,16 @@ Id : 508
 
 <br/><br/>
 
+<a name="GetPlatFormList"></a>
 ### 6. GetPlatFormList (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método devuelve todas las plataformas externas disponibles qpara las integraciones. 
   
 ####   Request
      - TokenCS
      
-     
-    
+      
      
  ####   Formato del JSON
 
@@ -359,14 +387,16 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetPaymenetTypes"></a>
 ### 7. GetPaymenetTypes (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método devuelve todas los medios de pago o cuentas de caja disponibles. 
   
 ####   Request
      - TokenCS
      
-     
-    
+        
      
  ####   Formato del JSON
 
@@ -386,14 +416,16 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetPriceList"></a>
 ### 8. GetPriceList (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método devuelve todas las listas de precio disponibles. 
   
 ####   Request
      - TokenCS
      
-     
-    
+         
      
  ####   Formato del JSON
 
@@ -413,7 +445,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetProductList"></a>
 ### 9. GetProductList (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método devuelve  los artículos disponibles en Tango Restó cuyo perfil sea
  
       - Venta
@@ -423,8 +458,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 ####   Request
      - TokenCS
      
-         
-     
+             
  ####   Formato del JSON
 
 ```
@@ -446,7 +480,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetStateOrderList"></a>
 ### 10. GetStateOrderList (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método devuelve los diferentes estados que puede tener una comanda
   
 ####   Request
@@ -471,7 +508,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetProductPriceList"></a>
 ### 11. GetProductPriceList (GET)
+[<sub>Volver</sub>](#inicio)
+
    Este método permite ver si un artículo esta relacionado con una o mas listas de precio
   
 ####   Request
@@ -497,7 +537,10 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="errores"></a>
 ## Código de errores
+[<sub>Volver</sub>](#inicio)
+
 
 | **Entidad** | **Código** | **Mensaje** |
 | --- | --- | --- |

@@ -23,13 +23,14 @@ Desde Restô se podrá:
     + [9. GetStateOrderList](#GetStateOrderList)
     + [10. GetProductList](#GetProductList)
     + [11. GetProductPriceList](#GetProductPriceList)
+    + [12. GetCashRegisterList](#GetCashRegisterList)
 + [Código de errores](#errores)
 
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
 
-La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.xxxx o superior**.
+La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.
 
 
 <a name="arquitectura"></a>
@@ -536,6 +537,35 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **PriceListCode** | Número de la lista de precio | Integer(8) | 1 |
 
 <br/><br/>
+
+<a name="GetCashRegisterList"></a>
+### 12. GetCashRegisterList (GET)
+[<sub>Volver</sub>](#inicio)
+
+   Este método devuelve todos los puestos de cajas disponibles en Tango Restó
+  
+####   Request
+     - TokenCS
+      
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetCashRegisterList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Code** | Es el código del puesto de caja  | ENTERO_TG | 1 |
+| **Description** | Descripción del puesto de caja | Varchar(30) | Caja Central |
+
+<br/><br/>
+
 
 <a name="errores"></a>
 ## Código de errores

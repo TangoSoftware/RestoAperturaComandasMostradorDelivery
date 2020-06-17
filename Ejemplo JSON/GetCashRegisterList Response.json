@@ -1,0 +1,10 @@
+{
+  "CashRegisterList": [
+    {
+      "Code": 1,
+      "Description": "Caja Salón central"
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

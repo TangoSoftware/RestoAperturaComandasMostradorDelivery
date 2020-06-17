@@ -533,7 +533,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- |--- |
-| **Price** | Es elprecio del artículo | DECIMAL_TG | 200.0 |
+| **Price** | Es el precio del artículo | DECIMAL_TG | 200.0 |
 | **ProductCode** | Código del artículo | Varchar(-1) | AC098 |
 | **PriceListCode** | Número de la lista de precio | Integer(8) | 1 |
 

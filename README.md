@@ -24,6 +24,7 @@ Desde Restô se podrá:
     + [10. GetProductList](#GetProductList)
     + [11. GetProductPriceList](#GetProductPriceList)
     + [12. GetCashRegisterList](#GetCashRegisterList)
+    + [13. GetSectionList](#GetSectionList)
 + [Código de errores](#errores)
 
 <a name="versiones"></a>
@@ -565,6 +566,35 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **Description** | Descripción del puesto de caja | Varchar(30) | Caja Central |
 
 <br/><br/>
+
+<a name="GetSectionList"></a>
+### 13. GetSectionList (GET)
+[<sub>Volver</sub>](#inicio)
+
+   Este método devuelve todos los rubros disponibles en Tango Restó
+  
+####   Request
+     - TokenCS
+      
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetSectionList**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **Code** | Es el código del rubro  | ENTERO_TG | 1 |
+| **Description** | Descripción del rubro | Varchar(30) | Bebidas |
+
+<br/><br/>
+
 
 
 <a name="errores"></a>

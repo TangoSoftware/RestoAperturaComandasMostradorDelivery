@@ -55,7 +55,7 @@ http://localhost:XXXX/Resto/AddOrder
 http://localhost:XXXX/Resto/GetOrders
 http://localhost:XXXX/Resto/GetProductList
 ```
-En la URL el parámetro Localhost debe ser reemplazado por el nombre del serviodr donde fue instalado el servicio de API Restó, el valor de XXXX será el número del puerto de coexión asignado y, el último parámetro correponde al nombre del método a invocar.
+En la URL el parámetro Localhost debe ser reemplazado por el nombre del servidor donde fue instalado el servicio de API Restó, el valor de XXXX será el número del puerto de coexión asignado y, el último parámetro correponde al nombre del método a invocar.
 
 Para culminar el proceso de instalación se deberá insertar un registro en la tabla TRA_ORIGEN_INFORMACION, este registro es el que identifica a la plataforma de eCommerce con la cual se estaría integrando
 

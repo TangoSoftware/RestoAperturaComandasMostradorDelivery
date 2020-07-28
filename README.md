@@ -10,6 +10,7 @@ Desde Restô se podrá:
   
 ### Contenido de la documentación 
   + [Versiones soportadas de Tango Restó](#versiones)
+  + [Instalación](#instalacion)
   + [Arquitectura](#arquitectura)
   + [Métodos](#metodos)
     + [1. AddOrder](#addorder)
@@ -32,6 +33,41 @@ Desde Restô se podrá:
 [<sub>Volver</sub>](#inicio)
 
 La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.
+
+
+<a name="instalacion"></a>
+### Instalación
+[<sub>Volver</sub>](#inicio)
+
+Una vez instalado el **AxApiRestoSvc (Axoft - Servicio de Resto Api)** podrá hacer el llamado a los métodos a través del TokenCS, ejemplo:
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+Adicional a esto, cada método tiene su propia URL, ejemplo:
+
+```
+http://localhost:XXXX/Resto/AddOrder
+http://localhost:XXXX/Resto/GetOrders
+http://localhost:XXXX/Resto/GetProductList
+```
+En la URL el parámetro Localhost debe ser reemplazado por el nombre del serviodr donde fue instalado el servicio de API Restó, el valor de XXXX será el número del puerto de coexión asignado y, el último parámetro correponde al nombre del método a invocar.
+
+Para culminar el proceso de instalación se deberá insertar un registro en la tabla TRA_ORIGEN_INFORMACION, este registro es el que identifica a la plataforma de eCommerce con la cual se estaría integrando
+
+Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un tercer registro con valor reservado, en el campo ID_TRA_ORIGEN_INFORMACION, con valor 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 3 en el campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
+
+
+| **ID_TRA_ORIGEN_INFORMACION** | **DESC_TRA_ORIGEN_INFORMACION** |  
+| --- | --- | 
+| **1** | Nexo Delivery | 
+| **2** | RestÃ´ | 
+| **3** | PedidosYa |
+
 
 
 <a name="arquitectura"></a>

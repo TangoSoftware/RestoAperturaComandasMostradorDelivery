@@ -59,7 +59,7 @@ En la URL el parámetro Localhost debe ser reemplazado por el nombre del serviod
 
 Para culminar el proceso de instalación se deberá insertar un registro en la tabla TRA_ORIGEN_INFORMACION, este registro es el que identifica a la plataforma de eCommerce con la cual se estaría integrando
 
-Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un tercer registro con valor reservado, en el campo ID_TRA_ORIGEN_INFORMACION, con valor 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 3 en el campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
+Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un tercer registro con valor reservado, en el campo ID_TRA_ORIGEN_INFORMACION, con valor 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 3 en el valor del campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
 
 
 | **ID_TRA_ORIGEN_INFORMACION** | **DESC_TRA_ORIGEN_INFORMACION** |  
@@ -68,7 +68,12 @@ Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un t
 | **2** | RestÃ´ | 
 | **3** | PedidosYa |
 
+<br/><br/>
 
+Ejemplo des Script
+INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('4', 'Nombre_Plataforma')
+
+<br/><br/>
 
 <a name="arquitectura"></a>
 ## Arquitectura

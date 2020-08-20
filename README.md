@@ -70,7 +70,7 @@ Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un t
 
 <br/><br/>
 
-Ejemplo des Script
+Ejemplo del Script
 
 INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('4', 'Nombre_Plataforma')
 

@@ -201,10 +201,10 @@ Estos datos son obligatorios para dar de alta a una orden
 | --- | --- | --- | --- |--- |
 | **ExternalId** | Si | Número de la orden externa | Integer(8) | 3000 |
 | **platformId** | Si| Número de la plataforma externa | D_ID(4) | 3 |
-| **RegisteredDate** | Si | Fecha de registro de la orden | Date | MM/DD/AAAA |
-| **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | MM/DD/AAAA |
+| **RegisteredDate** | Si | Fecha de registro de la orden | Date | DD/MM/AAAA |
+| **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | DD/MM/AAAA |
 | **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
-| **PickupDate** | Si | Fecha registro de entrega de la comanda | Date | MM/DD/AAAA |
+| **PickupDate** | Si | Fecha registro de entrega de la comanda | Date | DD/MM/AAAA |
 |  **Notes** | No | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
 |  **PriceListCode** | Si | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |
 

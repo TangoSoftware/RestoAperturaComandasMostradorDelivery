@@ -39,6 +39,8 @@ La versión mínima requerida de Tango Restô para habiltar esta funcionalidad e
 ### Instalación
 [<sub>Volver</sub>](#inicio)
 
+
+
 Una vez instalado el servicio **AxApiRestoSvc (Axoft - Servicio de Resto Api)** podrá hacer el llamado a los métodos a través del TokenCS, ejemplo:
 
 ```
@@ -59,7 +61,7 @@ En la URL el parámetro Localhost debe ser reemplazado por el nombre del servido
 
 Para culminar el proceso de instalación se deberá insertar un registro en la tabla TRA_ORIGEN_INFORMACION, este registro es el que identifica a la plataforma de eCommerce con la cual se estaría integrando
 
-Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un tercer registro con valor reservado en el campo ID_TRA_ORIGEN_INFORMACION, con valor 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 3 en el valor del campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
+Para la tabla TRA_ORIGEN_INFORMACION, el sistema Tango Restó reserva los 10 primeros ID. Por defecto la tabla ya incluye dos registro y en ocasiones se puede encontrar un  tercer registro con valor reservado en el campo ID_TRA_ORIGEN_INFORMACION igual a 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 10 en el valor del campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
 
 
 | **ID_TRA_ORIGEN_INFORMACION** | **DESC_TRA_ORIGEN_INFORMACION** |  
@@ -72,7 +74,7 @@ Por defecto la tabla TRA_ORIGEN_INFORMACION ya incluye dos registro y tiene un t
 
 Ejemplo del Script
 
-INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('4', 'Nombre_Plataforma')
+INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('11', 'Nombre_Plataforma')
 
 <br/><br/>
 

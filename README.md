@@ -689,6 +689,36 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **Medio de pago** | E0135 | El valor del campo Online debe ser true |
 | **General** | E9999 | Error no esperado |
 
+<br/><br/>
+
 <a name="Consideraciones"></a>
 ### Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder
 [<sub>Volver</sub>](#inicio)
+
+1.- Los códigos de los artículos que se envían en el **Request** deben existir en la base de datos. En caso de no existir el artículo, dentro de la orden ingresada desde la API se visualizará el artículo con descripción **“Producto Fuera de menú”**. Sin embargo, si en la sección del artículo 
+    {
+        "Code": "",
+        "Name": "",
+        "Quantity": ,
+        "UnitPrice": ,
+        "Total": ,
+        "Notes": "",
+        "OptionGroups": []
+      },
+
+si el objeto **Name** señala un valor, cuando el código del artículo no existe en la base de datos, y el sistema muestra en la comanda “Producto Fuera de menú”,  el valor del objeto Name será visible como una nota debajo para el del artículo **“Producto Fuera de menú”**.
+
+2.- El método **GetProductList** devuelve como Response información del artículo en cuestión, de las cuales se debe tomar en consideración entre otras las siguientes. Profile  y Type
+
+   **Profile**: Indica el perfil del artículo: venta (V), compra (C) y compra/venta (A) 
+   **Type**: Indica el tipo del artículo:  simple (A), promo (P), receta (M)
+
+3.- Al enviar el **Details** de la orden en el **Request** del método **Addorder**, se debe mantener el mismo criterio que se utiliza en la implementación del sistema Tango Restó en cuanto al alta de artículos para obtener el comportamiento esperado durante la cargar de una comanda directamente desde el módulo Delivery o mostrador.  Este comportamiento y visibilidad de los artículos en la comanda depende del Type y el Pofile de los artículos.
+
+Para que un artículo sea visible correctamente en una comanda, deberá cumplir las siguientes condiciones:
+•	El **Profile** debe ser diferente a compras (C) 
+•	Si el **Type** es simple (A) el mismo no podrá contener **OptionGroup**
+•	Los artículos cuyo **Type** sea igual a promo (P), solo podrán tener como **OptionGroup** aquellos artículos cuyo **Type** sea del tipo simple (A). Restó mantendrá el comportamiento del artículo promo según esté definido en el campo "GroupType", pudiendo tener dos valores: fija (F) o variable (V)
+
+4.- Para visualizar las comandas que son ingresadas a través de la API, es importante activar el **filtro “WEB”** en el panel principal de visor de pedidos en mostrador o delivery, 
+

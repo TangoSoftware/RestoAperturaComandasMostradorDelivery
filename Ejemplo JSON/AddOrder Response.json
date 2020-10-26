@@ -1,10 +1,11 @@
 {
   "Order": {
     "ExternalId": 3015,
-    "RegisteredDate": "2020-06-12T00:00:00",
-    "DeliveryDate": "1800-01-01T00:00:00",
+    "RegisteredDate": "26/10/2020",
+    "DeliveryDate": "26/10/2020",
     "PickUp": false,
-    "PickupDate": "2020-06-08T00:00:00",
+    "PickupDate": "26/10/2020",
+    "DelayTime": 0,
     "Notes": "Nota para la comanda",
     "Id": 681,
     "Customer": {

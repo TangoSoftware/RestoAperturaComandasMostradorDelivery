@@ -93,15 +93,18 @@ INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_I
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: 19.01.000.3805, para alicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: 19.01.000.3805, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
-• Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor
-• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y coparlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\Common Files\Axoft\Servidor\APIResto (versión windows 64bits) o C:\Program Files\Common Files\Axoft\Servidor\APIResto (versiòn windows 32 bits)
-• Una vez copia el archivo preinstall.resto.api.service.bat en la ruta indicado, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)
-• Posteriomrnete el wizard de instalación le pregunará si desea sustituir los archivos, deberá seleccionar la opción Si a todo (Yes all)
-
+• Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
+ 
+• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y coparlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\Common Files\Axoft\Servidor\APIResto (versión windows 64bits) o C:\Program Files\Common Files\Axoft\Servidor\APIResto (versiòn windows 32 bits) 
+ 
+• Una vez copia el archivo preinstall.resto.api.service.bat en la ruta indicado, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
+ 
+• Posteriomrnete el wizard de instalación le pregunará si desea sustituir los archivos, deberá seleccionar la opción Si a todo (Yes all) 
+ 
 Con estos pasos ya el servicio de API quedará actualizado a la versión que contiene el Hoftix instalado. 
-
+ 
 **NOTA:** La descarga del archivo **preinstall.resto.api.service.bat** de este portal puede hacerlo una sola vez sin embargo, siempre que instale un Hotfix y éste impacte directamente en ajustes y mejoras de la API, usted deberá ejecutar como administrador el archivo **preinstall.resto.api.service.bat** en la ruta que corresponda en la instalación de la API.
  
 

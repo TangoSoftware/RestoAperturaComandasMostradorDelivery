@@ -9,9 +9,10 @@ Desde Restô se podrá:
   - Crear un cliente si no existe siendo la dirección de entrega la que indique un método para agregar una comanda.
   
 ### Contenido de la documentación 
+  + [Arquitectura](#arquitectura)
   + [Versiones soportadas de Tango Restó](#versiones)
   + [Instalación](#instalacion)
-  + [Arquitectura](#arquitectura)
+    + [Actualizaciones](#actualizaciones)
   + [Métodos](#metodos)
     + [1. AddOrder](#addorder)
     + [2. GetOrders](#GetOrders)
@@ -28,6 +29,16 @@ Desde Restô se podrá:
     + [13. GetSectionList](#GetSectionList)
 + [Código de errores](#errores)
 + [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
+
+<br/><br/>
+
+<a name="arquitectura"></a>
+## Arquitectura
+[<sub>Volver</sub>](#inicio)
+
+![imagenapi](https://github.com/TangoSoftware/RestoAperturaComandasMostradorDelivery/blob/master/00.jpg)
+
+<br/><br/>
 
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
@@ -77,13 +88,6 @@ Ejemplo del Script
 
 INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('11', 'Nombre_Plataforma')
 
-<br/><br/>
-
-<a name="arquitectura"></a>
-## Arquitectura
-[<sub>Volver</sub>](#inicio)
-
-![imagenapi](https://github.com/TangoSoftware/RestoAperturaComandasMostradorDelivery/blob/master/00.jpg)
 
 <a name="metodos"></a>
 ## Métodos

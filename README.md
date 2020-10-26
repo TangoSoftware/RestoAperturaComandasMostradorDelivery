@@ -101,7 +101,7 @@ Actualmente la última versión para T19 es: 19.01.000.3805, para aplicar esta a
  
 • Una vez copia el archivo preinstall.resto.api.service.bat en la ruta indicado, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
  
-• Posteriomrnete el wizard de instalación le pregunará si desea sustituir los archivos, deberá seleccionar la opción Si a todo (Yes all) 
+• Posteriormente el wizard de instalación le preguntará si desea sustituir los archivos, deberá seleccionar la opción Si a todo (Yes all) 
  
 Con estos pasos ya el servicio de API quedará actualizado a la versión que contiene el Hoftix instalado. 
  

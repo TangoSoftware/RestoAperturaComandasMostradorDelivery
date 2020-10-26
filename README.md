@@ -27,6 +27,7 @@ Desde Restô se podrá:
     + [12. GetCashRegisterList](#GetCashRegisterList)
     + [13. GetSectionList](#GetSectionList)
 + [Código de errores](#errores)
++ [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
 
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
@@ -688,3 +689,6 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **Medio de pago** | E0135 | El valor del campo Online debe ser true |
 | **General** | E9999 | Error no esperado |
 
+<a name="Consideraciones"></a>
+### Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder
+[<sub>Volver</sub>](#inicio)

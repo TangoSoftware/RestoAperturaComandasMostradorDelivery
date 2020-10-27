@@ -97,9 +97,9 @@ Actualmente la última versión para T19 es: 19.01.000.3805, para aplicar esta a
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  
-• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y coparlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\Common Files\Axoft\Servidor\APIResto (versión windows 64bits) o C:\Program Files\Common Files\Axoft\Servidor\APIResto (versiòn windows 32 bits) 
+• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y copiarlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\Common Files\Axoft\Servidor\APIResto (versión windows 64bits) o C:\Program Files\Common Files\Axoft\Servidor\APIResto (versiòn windows 32 bits) 
  
-• Una vez copia el archivo preinstall.resto.api.service.bat en la ruta indicado, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
+• Una vez copiado el archivo **preinstall.resto.api.service.bat** en la ruta indicada, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
  
 • Posteriormente el wizard de instalación le preguntará si desea sustituir los archivos, deberá seleccionar la opción Si a todo (Yes all) 
  

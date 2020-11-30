@@ -93,7 +93,7 @@ INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_I
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.3936**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: **19.01.000.3946**, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  

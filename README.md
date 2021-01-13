@@ -149,7 +149,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 		
 		"Address" : {
 			 "Description" : "Yerbal",
-			 "Phome" : "1569812178",
+			 "Phone" : "1569812178",
 			 "Notes": "",
 			 "ZipCode": "1504",
 			 "City": "Caballito",
@@ -254,7 +254,7 @@ Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 |  **Description** | No | Descripción de la dirección del cliente | Varchar(500 | Dirección Principal |
-|  **Phome** | No | Número telefónico del cliente | Varchar(200 | 54113426578 |
+|  **Phone** | No | Número telefónico del cliente | Varchar(200 | 54113426578 |
 |  **Notes** | No | Nota para la dirección del cliente | Varchar(-1) | Puerta de madera |
 |  **ZipCode** | No | Código postal de la dirección del cliente | Varchar(40) | 1019 |
 |  **City** | No | Ciudad | Varchar(500) | Capital Federal |

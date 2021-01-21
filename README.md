@@ -12,6 +12,7 @@ Desde Restô se podrá:
   + [Arquitectura](#arquitectura)
   + [Versiones soportadas de Tango Restó](#versiones)
   + [Instalación](#instalacion)
+    + [Configuración en la terminal](#Configuracion)
     + [Actualización](#actualizaciones)
   + [Métodos](#metodos)
     + [1. AddOrder](#addorder)
@@ -29,7 +30,6 @@ Desde Restô se podrá:
     + [13. GetSectionList](#GetSectionList)
 + [Código de errores](#errores)
 + [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
-+ [Configuración en la terminal](#Configuracion)
 
 <br/><br/>
 

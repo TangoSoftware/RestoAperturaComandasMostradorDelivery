@@ -12,7 +12,7 @@ Desde Restô se podrá:
   + [Arquitectura](#arquitectura)
   + [Versiones soportadas de Tango Restó](#versiones)
   + [Instalación](#instalacion)
-    + [Configuración en la terminal](#Configuracion)
+    + [Configuración de la terminal](#Configuracion)
     + [Actualización](#actualizaciones)
   + [Métodos](#metodos)
     + [1. AddOrder](#addorder)
@@ -88,6 +88,13 @@ Para la tabla TRA_ORIGEN_INFORMACION, el sistema Tango Restó reserva los 10 pri
 Ejemplo del Script
 
 INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_INFORMACION) VALUES ('11', 'Nombre_Plataforma')
+
+
+<br/><br/>
+<a name="Configuracion"></a>
+### Configuración de la terminal
+[<sub>Volver</sub>](#inicio)
+
 
 <br/><br/>
 <a name="Actualizaciones"></a>

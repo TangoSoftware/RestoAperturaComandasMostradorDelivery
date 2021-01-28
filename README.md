@@ -118,7 +118,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.4104**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: **19.01.000.4120**, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  

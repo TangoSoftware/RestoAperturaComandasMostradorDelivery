@@ -62,7 +62,7 @@ Para instalar el servicio siga los siguientes pasos:
  
 Con estos pasos ya el servicio de API quedará instalado.
 
-**NOTA:** Recuerde actualizar el servicio a la última versión disponible de la API. Para más información por favor dirijase a la sección <a name="Configuracion"></a> 
+**NOTA:** Recuerde actualizar el servicio a la última versión disponible de la API. Para más información por favor dirijase a la sección  [Configuración de la terminal](#Configuracion)
 
 Una vez instalado el servicio **AxApiRestoSvc (Axoft - Servicio de Resto Api)** podrá hacer el llamado a los métodos a través del TokenCS, ejemplo:
 

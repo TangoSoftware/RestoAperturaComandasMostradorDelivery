@@ -52,7 +52,17 @@ La versión mínima requerida de Tango Restô para habiltar esta funcionalidad e
 ### Instalación
 [<sub>Volver</sub>](#inicio)
 
+Para instalar el servicio siga los siguientes pasos:
 
+• Una vez instalada la versión minima requerida para la instalación del servicio, proceda a descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y copiarlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\TANGO RESTO\Servidor\Aplicaciones (versión windows 64bits) o C:\Program Files\TANGO RESTO\Servidor\Aplicaciones (versiòn windows 32 bits) 
+ 
+• Una vez copiado el archivo **preinstall.resto.api.service.bat** en la ruta indicada, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
+ 
+• Posteriormente el wizard continuará el proceso de instalación.
+ 
+Con estos pasos ya el servicio de API quedará instalado.
+
+**NOTA:** Recuerde actualizar el servicio a la última versión disponible de la API. Para más información por favor dirijase a la sección <a name="Configuracion"></a> 
 
 Una vez instalado el servicio **AxApiRestoSvc (Axoft - Servicio de Resto Api)** podrá hacer el llamado a los métodos a través del TokenCS, ejemplo:
 
@@ -103,9 +113,11 @@ Desde aquí en la sección “Identificador web” deberá configurar los siguie
  
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen            nuevos pedidos por notificar en Tango Restó.
 
-• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s)                disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un          color para que defina las notificaciones de los nuevos pedidos entrantes en Tango Resto así como, las comandas sin recepcionar de la                plataforma web configurada. Estas comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del          método AddOrder
+• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como, las comandas sin recepcionar de la plataforma web configurada. De igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
 
-**NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido.
+Estas comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del método AddOrder
+
+**NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido. Es importante mencionar que, al seleccionar un sonido en Restó, el tipo de sonido a reproducir  dependerá según el sonido que tenga configurado en el sistema operativo instalado. Desde el administrador de sonido de Windows podrá modificar el tipo de sonido asociado en Restó  
 
 Una vez configurada las notificaciones de la(s) plataforma(s), en la subsolapa “visor de pedidos” em la misma solada “Delivery” y en la solapa “Mostradro”, deberá marcar el parámetro “Identificado web” el cual se utiliza para distinguir los pedidos tradicionales de los generados por las plataformas externas.
 
@@ -118,7 +130,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.4120**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: **19.01.000.4230**, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  

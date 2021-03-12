@@ -55,7 +55,9 @@ La versión mínima requerida de Tango Restô para habiltar esta funcionalidad e
 Para instalar el servicio siga los siguientes pasos:
 
 • Una vez instalada la versión minima requerida para la instalación del servicio, proceda a descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y copiarlo en la ruta de instalación de la aplicación de la API: 
+<br/><br/>
 **C:\Program Files (x86)\TANGO RESTO\Servidor\Aplicaciones** (versión windows 64bits) o 
+<br/><br/>
 **C:\Program Files\TANGO RESTO\Servidor\Aplicaciones** (versiòn windows 32 bits) 
  
 • Una vez copiado el archivo **preinstall.resto.api.service.bat** en la ruta indicada, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
@@ -136,7 +138,11 @@ Actualmente la última versión para T19 es: **19.01.000.4230**, para aplicar es
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  
-• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y copiarlo en la ruta de instalación de la aplicación de la API: C:\Program Files (x86)\TANGO RESTO\Servidor\Aplicaciones (versión windows 64bits) o C:\Program Files\TANGO RESTO\Servidor\Aplicaciones (versiòn windows 32 bits) 
+• Descargar de la ayuda de API el archivo: **preinstall.resto.api.service.bat** y copiarlo en la ruta de instalación de la aplicación de la API: 
+<br/><br/>
+**C:\Program Files (x86)\TANGO RESTO\Servidor\Aplicaciones** (versión windows 64bits) o 
+<br/><br/>
+**C:\Program Files\TANGO RESTO\Servidor\Aplicaciones** (versiòn windows 32 bits) 
  
 • Una vez copiado el archivo **preinstall.resto.api.service.bat** en la ruta indicada, deberá ejecutar este archivo como administrador (Click derecho sobre el archivo, ejecutar como administrador)  
  

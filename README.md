@@ -134,7 +134,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.4230**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: **19.01.000.4492**, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  
@@ -424,7 +424,7 @@ Id : 508
   
 ####   Request
      - TokenCS
-     - Id 
+     - ExternalId 
      - PlatformId
     
      
@@ -434,7 +434,7 @@ Id : 508
 {
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
-Id : 508, "PlatformId" : 5
+ExternalId : 508, "PlatformId" : 5
 }
 ```
 
@@ -442,7 +442,7 @@ Id : 508, "PlatformId" : 5
 
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
-| **Id** | Si | Número de la comanda generada desde la plataforma externa | Integer(8) | 3000 |
+| **ExternalId** | Si | Número de la comanda generada desde la plataforma externa | Integer(8) | 3000 |
 | **PlatformId** | Si| Número de la plataforma externa | D_ID(4) | 4 |
 
 <br/><br/>

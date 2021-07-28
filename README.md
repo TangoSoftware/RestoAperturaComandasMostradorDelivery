@@ -134,7 +134,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.4492**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+Actualmente la última versión para T19 es: **19.01.000.4685**, para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  
@@ -317,7 +317,7 @@ Estos datos son obligatorios para dar de alta a una orden
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 |  **Code** | Si | Codigo del artículo  | Varchar(15) | AC001 |
-|  **Quantity** | Si | Cantidad del artículo | Integer(4) | 2 |
+|  **Quantity** | Si | Cantidad del artículo | DECIMAL_TG | 2.0 |
 |  **UnitPrice** | Si | Precio unitario del artículo  | DECIMAL_TG | 200.0 |
 |  **Notes** | No | Nota para el artículo | Varchar(-1) | Sin sal |
 
@@ -329,7 +329,7 @@ Estos datos solo serán necesarios si se trata de un artículo del tipo promoci�
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 |  **IntegrationCode** | Si | Código del artículo que forma parte de una promoción en el detalle de la comanda | Varchar(15) | GAS009 |
-|  **Quantity** | Si | Cantidad del artículo que forma parte del artículo promoción | Integer(4) | 1 |
+|  **Quantity** | Si | Cantidad del artículo que forma parte del artículo promoción | DECIMAL_TG | 1.0 |
 |  **Amount** | Si | Precio unitario del artículo que fomra parte de la promoción  | DECIMAL_TG | 20.0 |
 
 <br/><br/>

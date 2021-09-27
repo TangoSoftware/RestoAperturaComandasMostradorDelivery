@@ -45,7 +45,8 @@ Desde Restô se podrá:
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
 
-La versión mínima requerida de Tango Restô para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.
+En Tango Restó la versión **T19** mínima requerida para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.
+En Tango Restó la versión **T20** mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
 
 
 <a name="instalacion"></a>
@@ -134,7 +135,10 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-Actualmente la última versión para T19 es: **19.01.000.4685**, para aplicar esta actualización se deberán seguir los siguientes pasos:
+La última versión para **T19** es: **19.01.000.4685**.
+La última versión para **T20** es: **20.01.000.2929**.
+
+Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   
  

@@ -45,8 +45,9 @@ Desde Restô se podrá:
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
 
-En Tango Restó la versión **T19** mínima requerida para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.
-En Tango Restó la versión **T20** mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
+En Tango Restó para **T19**, la versión mínima requerida para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.  
+   
+En Tango Restó para **Deltao T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
 
 
 <a name="instalacion"></a>
@@ -135,8 +136,9 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión para **T19** es: **19.01.000.4685**.
-La última versión para **T20** es: **20.01.000.2929**.
+La última versión para **T19** es: **19.01.000.4685**. 
+  
+La última versión para **Delta o T20** es: **20.01.000.2929**.
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

@@ -47,7 +47,7 @@ Desde Restô se podrá:
 
 En Tango Restó para **T19**, la versión mínima requerida para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.  
    
-En Tango Restó para **Deltao T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
+En Tango Restó para **Delta o T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
 
 
 <a name="instalacion"></a>

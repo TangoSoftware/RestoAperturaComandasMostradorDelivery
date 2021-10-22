@@ -179,6 +179,7 @@ Con estos pasos ya el servicio de API quedará actualizado a la versión que con
  ####   Formato del JSON
      
 ```
+{
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 	"cashCode" : "1",

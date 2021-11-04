@@ -284,7 +284,7 @@ Estos datos son obligatorios para dar de alta a una orden
 | **platformId** | Si| Número de la plataforma externa | D_ID(4) | 3 |
 | **RegisteredDate** | Si | Fecha de registro de la orden | Date | DD/MM/AAAA |
 | **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | DD/MM/AAAA |
-| **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Delivery o False = Mostrador |
+| **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Mostrador o False = Delivery |
 | **PickupDate** | Si | Fecha registro de entrega de la comanda | Date | DD/MM/AAAA |
 | **DelayTime** | No | Minutos de demora en la  entrega de la comanda | Integer | 0 |
 |  **Notes** | No | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |

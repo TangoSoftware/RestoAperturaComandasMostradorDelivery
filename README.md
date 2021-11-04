@@ -166,7 +166,7 @@ Con estos pasos ya el servicio de API quedará actualizado a la versión que con
 [<sub>Volver</sub>](#inicio)
 
 <a name="addorder"></a>
-### 1. AddOrder (POS)
+### 1. AddOrder (POST)
 [<sub>Volver</sub>](#inicio)
 
   Este método permite registrar una nueva orden de pedido en la base de datos del sistema Tango Restó

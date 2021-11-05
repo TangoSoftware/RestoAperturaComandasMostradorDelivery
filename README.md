@@ -136,9 +136,9 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión para **T19** es: **19.01.000.4685**. 
+La última versión para **T19** es: **19.01.000.4957**. 
   
-La última versión para **Delta o T20** es: **20.01.000.2929**.
+La última versión para **Delta o T20** es: **20.01.000.3153**.
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

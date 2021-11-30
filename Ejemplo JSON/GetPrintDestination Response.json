@@ -1,0 +1,18 @@
+{
+  "PrintDestinationList": [
+    {
+      "PrinterCode": "001",
+      "PrinterName": "Cocina"
+    },
+    {
+      "PrinterCode": "002",
+      "PrinterName": "Barra"
+    },
+    {
+      "PrinterCode": "003",
+      "PrinterName": "Terraza"
+    }
+  ],
+  "Success": true,
+  "Error": null
+}

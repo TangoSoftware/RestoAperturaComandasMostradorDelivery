@@ -724,9 +724,9 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 ### 13. GetPrintDestination (GET)
 [<sub>Volver</sub>](#inicio)
 
-   Este método devuelve todos los destinos de impresión disponibles en Tango Restó
-   ### NOTA: Este método solo esta disponible para **Delta o T20** versión **20.01.000.3245**
-  
+     ### NOTA: Este método solo esta disponible para **Delta o T20** versión **20.01.000.3245**
+     Este método devuelve todos los destinos de impresión disponibles en Tango Restó
+    
 ####   Request
      - TokenCS
       

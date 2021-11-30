@@ -28,6 +28,7 @@ Desde Restô se podrá:
     + [11. GetProductPriceList](#GetProductPriceList)
     + [12. GetCashRegisterList](#GetCashRegisterList)
     + [13. GetSectionList](#GetSectionList)
+    + [14. GetPrintDestinatio](#GetPrintDestination)
 + [Código de errores](#errores)
 + [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
 
@@ -138,7 +139,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 
 La última versión para **T19** es: **19.01.000.4958**. 
   
-La última versión para **Delta o T20** es: **20.01.000.3154**.
+La última versión para **Delta o T20** es: **20.01.000.3245**.
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
@@ -719,7 +720,33 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="GetPrintDestination"></a>
+### 13. GetPrintDestination (GET)
+[<sub>Volver</sub>](#inicio)
 
+   Este método devuelve todos los destinos de impresión disponibles en Tango Restó
+  
+####   Request
+     - TokenCS
+      
+     
+ ####   Formato del JSON
+
+```
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}
+```
+
+**Información Response JSON GetPrintDestination**
+
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- |--- |
+| **PrinterCode** | Es el código del destino de impresión  | Varchar(3) | 011 |
+| **PrinterName** | Nombre del destino de impresión | Varchar(30) | Cocina |
+
+<br/><br/>
 
 <a name="errores"></a>
 ## Código de errores

@@ -89,6 +89,18 @@ http://localhost:XXXX/Resto/GetProductList
 ```
 En la URL el parámetro Localhost debe ser reemplazado por el nombre del servidor donde fue instalado el servicio de API Restó, el valor de XXXX será el número del puerto de coexión asignado y, el último parámetro correponde al nombre del método a invocar.
 
+**NOTA:** El valor por defecto del puerto de conexión es 9209. Si desea cambiar este valor, deberá hacerlo en el archivo 'Resto.Api.Service.exe.config' en la sección: 
+
+
+```
+  <appSettings>
+    <add key="portNumber" value="9209" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+```
+ 
+  
+    
+	 
 Para culminar el proceso de instalación se deberá insertar un registro en la tabla TRA_ORIGEN_INFORMACION, este registro es el que identifica a la plataforma de eCommerce con la cual se estaría integrando
 
 Para la tabla TRA_ORIGEN_INFORMACION, el sistema Tango Restó reserva los 10 primeros ID. Por defecto la tabla ya incluye dos registro y en ocasiones se puede encontrar un  tercer registro con valor reservado en el campo ID_TRA_ORIGEN_INFORMACION igual a 3, lo que quiere decir que los siguientes registros a insertar en la tabla deben ser estrictamente mayores a 10 en el valor del campo ID_TRA_ORIGEN_INFORMACION. En el campo DESC_TRA_ORIGEN_INFORMACION tendrá como valor el nombre de la plataforma eCommerce con la que se está integrando.
@@ -137,9 +149,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión para **T19** es: **19.01.000.4958**.             
-  
-**Versión del instalador**: 19.1.0.151 (INSTALLERRESTOAPISERVICE.EXE)
+La última versión del hotfix para **T19** es: **19.01.000.4958** con **Versión del instalador**: 19.1.0.151 (INSTALLERRESTOAPISERVICE.EXE)
   
 La última versión para **Delta o T20** es: **20.01.000.3245**.
 

@@ -804,6 +804,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 | **Medio de pago** | E0133 | El valor del campo code del array payments es obligatorio |
 | **Medio de pago** | E0134 | El valor del campo PaymentAmount debe ser mayor a cero |
 | **Medio de pago** | E0135 | El valor del campo Online debe ser true |
+| **General** | E0136 | No existe un turno abierto para el valor CashCode |
 | **General** | E9999 | Error no esperado |
 
 <br/><br/>

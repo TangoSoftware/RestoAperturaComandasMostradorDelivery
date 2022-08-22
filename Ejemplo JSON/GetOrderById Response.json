@@ -7,6 +7,7 @@
     "PickupDate": "2020-06-12T00:00:00",
     "Notes": "",
     "Id": 680,
+    "CashCode": 1,
     "Customer": null,
     "Address": {
       "Description": null,

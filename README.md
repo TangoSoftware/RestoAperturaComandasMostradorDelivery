@@ -151,9 +151,9 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 
 La última versión del hotfix para **T19** es: **19.01.000.4980** con **Versión del instalador**: 19.1.0.159 (INSTALLERRESTOAPISERVICE.EXE)
   
-La última versión para **Delta o T20** es: **20.01.000.4420** con **Versión del instalador**: 20.1.0.660 (INSTALLERRESTOAPISERVICE.EXE)
+La última versión del hotfix para **Delta o T20** es: **20.01.000.4420** con **Versión del instalador**: 20.1.0.660 (INSTALLERRESTOAPISERVICE.EXE)
 
-La última versión para **T21** es : **21.01.000.2942** con **Versión del instalador**: 21.1.0.520 (INSTALLERRESTOAPISERVICE.EXE)
+La última versión del hotfix para **T21** es : **21.01.000.2942** con **Versión del instalador**: 21.1.0.520 (INSTALLERRESTOAPISERVICE.EXE)
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

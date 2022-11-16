@@ -153,7 +153,7 @@ La última versión del hotfix para **T19** es: **19.01.000.4980** con **Versió
   
 La última versión del hotfix para **Delta o T20** es: **20.01.000.4420** con **Versión del instalador**: 20.1.0.660 (INSTALLERRESTOAPISERVICE.EXE)
 
-La última versión del hotfix para **T21** es : **21.01.000.2942** con **Versión del instalador**: 21.1.0.520 (INSTALLERRESTOAPISERVICE.EXE)
+La última versión del hotfix para **Delta 2 o T21** es : **21.01.000.2942** con **Versión del instalador**: 21.1.0.520 (INSTALLERRESTOAPISERVICE.EXE)
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

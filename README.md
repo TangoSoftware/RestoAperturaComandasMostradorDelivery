@@ -147,7 +147,9 @@ Desde aquí en la sección “Identificador web” deberá configurar los siguie
 
 • **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) terminal(es) donde serán visibles las notificaciones, a continuación indique la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
 
-Tenga en cuenta que las comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del método AddOrder
+**NOTA:** Siempre que configure las notificaciones de un pedido para las terminales, recuerde guardar los cambios, cerrar las todas las terminales involucradas en la configuración y abrir Restó nuevamente, de esta manera se aplicarán los cambios correspondientes a la configuración de notificaciones.
+
+Para cualquier versión, tenga en cuenta que las comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del método AddOrder
 
 Una vez configurada las notificaciones de la(s) plataforma(s), en la subsolapa “visor de pedidos” em la misma solada “Delivery” y en la solapa “Mostradro”, deberá marcar el parámetro “Identificado web” el cual se utiliza para distinguir los pedidos tradicionales de los generados por las plataformas externas.
 

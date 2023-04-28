@@ -50,7 +50,7 @@ En Tango Restó para **T19**, la versión mínima requerida para habiltar esta f
    
 En Tango Restó para **Delta o T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
 
-En Tango Restó para **Delta2 o T21**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **21.01.000.3512 o superior**.
+En Tango Restó para **Delta 2 o T21**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **21.01.000.3512 o superior**.
 
 
 <a name="instalacion"></a>
@@ -141,7 +141,7 @@ Desde aquí en la sección “Identificador web” deberá configurar los siguie
 
 **NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido. Es importante mencionar que, al seleccionar un sonido en Restó, el tipo de sonido a reproducir  dependerá según el sonido que tenga configurado en el sistema operativo instalado. Desde el administrador de sonido de Windows podrá modificar el tipo de sonido asociado en Restó  
 
-### Para versión Delta (T21):
+### Para versión Delta 2 (T21):
 
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen nuevos pedidos por notificar en Tango Restó.
 

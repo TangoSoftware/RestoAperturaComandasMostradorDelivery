@@ -50,6 +50,8 @@ En Tango Restó para **T19**, la versión mínima requerida para habiltar esta f
    
 En Tango Restó para **Delta o T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
 
+En Tango Restó para **Delta2 o T21**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **21.01.000.3512 o superior**.
+
 
 <a name="instalacion"></a>
 ### Instalación
@@ -125,18 +127,27 @@ INSERT INTO TRA_ORIGEN_INFORMACION (ID_TRA_ORIGEN_INFORMACION, DESC_TRA_ORIGEN_I
 [<sub>Volver</sub>](#inicio)
  
 Luego de completar el proceso de instalación proceda a configurar la terminal de Restô desde el botón "Otros" que se encuentra en la terminal: Configuración | Terminal, solapa Delivery | Terminal.
+
  
 Desde aquí en la sección “Identificador web” deberá configurar los siguientes parámetros:
+
+### Para versión T19 y Delta (T20):
  
 • **Notifica nuevo pedido:** Al marcar este parámetro, le está indicando al sistema que la terminal actual va a notificar cuando ingrese un           nuevo pedido a través de un mensaje Pop-up en las vistas activas del sistema.
  
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen            nuevos pedidos por notificar en Tango Restó.
 
-• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como, las comandas sin recepcionar de la plataforma web configurada. De igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
-
-Estas comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del método AddOrder
+• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
 
 **NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido. Es importante mencionar que, al seleccionar un sonido en Restó, el tipo de sonido a reproducir  dependerá según el sonido que tenga configurado en el sistema operativo instalado. Desde el administrador de sonido de Windows podrá modificar el tipo de sonido asociado en Restó  
+
+### Para versión Delta (T21):
+
+• **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen nuevos pedidos por notificar en Tango Restó.
+
+• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) terminal(es) donde serán visibles las notificaciones, a continuación indique la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
+
+Tenga en cuenta que las comandas pueden ser visibles en el Visor de Mostrador o Delivery según sea el valor del campo Pickup del método AddOrder
 
 Una vez configurada las notificaciones de la(s) plataforma(s), en la subsolapa “visor de pedidos” em la misma solada “Delivery” y en la solapa “Mostradro”, deberá marcar el parámetro “Identificado web” el cual se utiliza para distinguir los pedidos tradicionales de los generados por las plataformas externas.
 

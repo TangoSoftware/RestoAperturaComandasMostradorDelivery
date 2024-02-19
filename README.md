@@ -860,5 +860,5 @@ Para que un artículo sea visible correctamente en una comanda, deberá cumplir 
 comportamiento del artículo promo según esté definido en el campo "GroupType", pudiendo tener dos valores: fija (F) o variable (V)
  
 
-4.- Para visualizar las comandas que son ingresadas a través de la API, es importante activar el **filtro “WEB”** en el panel principal de visor de pedidos en mostrador o delivery, 
+4.- Para visualizar las comandas que son ingresadas a través de la API, es importante activar el **filtro “WEB”** en el panel principal de visor de pedidos en mostrador o delivery. 
 

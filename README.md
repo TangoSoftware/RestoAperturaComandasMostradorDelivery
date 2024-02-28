@@ -32,7 +32,7 @@ Desde Restô se podrá:
     + [12. GetCashRegisterList](#GetCashRegisterList)
     + [13. GetSectionList](#GetSectionList)
     + [14. GetPrintDestination](#GetPrintDestination)
-    + [15. SendOrder](#SendOrder) 
+    + [15. SendOrder](#SendOrder)
 + [Código de errores](#errores)
 + [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
 
@@ -782,23 +782,24 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="SendOrder"></a>
 ### 15. SendOrder (POST) 
+[<sub>Volver</sub>](#inicio)
 
 NOTA: El método solo está disponible para Delta 3 o T23 versión 23_01_000_3053.  
 
-Este método permite enviar a cocina de manera automática cada artículo de una comanda. Además, permite la facturación automática según parametrización. 
+  Este método permite enviar a cocina de manera automática cada artículo de una comanda. Además, permite la facturación automática según parametrización. 
 
  
+####   Request
+     - TokenCS
+     - Id 
+     - HabFacturaAuto 
 
-Request: 
-```
-TokenCS 
-Id 
-HabFacturaAuto 
-```
  
+ ####   Formato del JSON
 
-Formato del JSON: 
+
 ```
 { 
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; 
@@ -808,14 +809,16 @@ HabFacturaAuto : 0
 } 
 ```
 
-Informarción SendOrder: 
+**Informarción SendOrder**
+
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **Id_Comanda ** | Si | Nro de comanda | Integer(8) | 3000 |
 | **HabFacturaAuto** | Si | Habilita facturación automática | Bit | 1 |
 
 
-Response 200 SendOrder: 
+**Response 200 SendOrder**
+
 ```
 { 
 "order" : null, 
@@ -826,6 +829,8 @@ Response 200 SendOrder:
  
 
 Para poder utilizar dicho método es necesario realizar la parametrización en la configuración de la terminal de Restó; solapa “Procesos automáticos”. Se deberá indicar la Frecuencia con la que se desea que se ejecute el proceso automático y los minutos máximos respecto a la fecha acordada del pedido; que se consideraran para enviar a cocina.  
+
+<br/><br/>
 
 <a name="errores"></a>
 

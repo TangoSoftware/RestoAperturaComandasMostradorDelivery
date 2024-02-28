@@ -748,7 +748,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 <br/><br/>
 
 <a name="GetPrintDestination"></a>
-### 13. GetPrintDestination (GET)
+### 14. GetPrintDestination (GET)
 [<sub>Volver</sub>](#inicio)
 
    **NOTA:** El método solo esta disponible para **Delta o T20** versión **20.01.000.3245**    

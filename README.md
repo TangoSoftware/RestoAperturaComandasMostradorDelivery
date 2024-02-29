@@ -1,5 +1,5 @@
 <a name="inicio"></a>
-# Resto Apertura Comandas (Mostrador y Delivery) y funciones automáticas
+# Resto Apertura Comandas (Mostrador y Delivery) y funciones automáticas 
 
 La API permite registrar en la base de datos de Tango Restó, las comandas o pedidos generados por aplicaciones externas. Esta información es recibida como parámetros de entrada y la comanda será visualizada en el módulo de Delivery o Mostrador según sea el caso.
 También dispone de una funcionalidad automática a partir de T23 (Delta 3) para enviar a cocina artículos de una comanda y de facturar automáticamente luego del envío a cocina. 

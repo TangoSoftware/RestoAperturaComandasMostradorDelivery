@@ -1,12 +1,15 @@
 <a name="inicio"></a>
-# Resto Apertura Comandas (Mostrador y Delivery)
+# Resto Apertura Comandas (Mostrador y Delivery) y funciones automáticas
 
-La API permite registrar en la base de datos de Tango Restó, las comandas o pedidos generados por aplicaciones externas. Esta información es recibida como parámetros de entrada y la comanda será visualiza en el módulo de Delivery o Mostrador según sea el caso.
+La API permite registrar en la base de datos de Tango Restó, las comandas o pedidos generados por aplicaciones externas. Esta información es recibida como parámetros de entrada y la comanda será visualizada en el módulo de Delivery o Mostrador según sea el caso.
+También dispone de una funcionalidad automática a partir de T23 (Delta 3) para enviar a cocina artículos de una comanda y de facturar automáticamente luego del envío a cocina. 
 
 Desde Restô se podrá:
   - Identificar el origen de la comanda. 
   - Cancelar una comanda.
   - Crear un cliente si no existe siendo la dirección de entrega la que indique un método para agregar una comanda.
+  - Parametrizar la frecuencia con la que se envía a cocina los artículos de una comanda. 
+  - Parametrizar para habilitar o no la facturación automática luego del envío a cocina. 
   
 ### Contenido de la documentación 
   + [Arquitectura](#arquitectura)
@@ -29,6 +32,7 @@ Desde Restô se podrá:
     + [12. GetCashRegisterList](#GetCashRegisterList)
     + [13. GetSectionList](#GetSectionList)
     + [14. GetPrintDestination](#GetPrintDestination)
+    + [15. SendOrder](#SendOrder)
 + [Código de errores](#errores)
 + [Consideraciones en la vista de los pedidos en Tango Restó versus API método AddOrder ](#Consideraciones)
 
@@ -167,6 +171,8 @@ La última versión del hotfix para **T19** es: **19.01.000.4980** con **Versió
 La última versión del hotfix para **Delta o T20** es: **20.01.000.4420** con **Versión del instalador**: 20.1.0.660 (INSTALLERRESTOAPISERVICE.EXE)
 
 La última versión del hotfix para **Delta 2 o T21** es : **21.01.000.4431** con **Versión del instalador**: 21.1.0.538 (INSTALLERRESTOAPISERVICE.EXE)
+
+La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_3053** con **Versión del instalador**: 23.1.0.538 (INSTALLERRESTOAPISERVICE.EXE) 
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
@@ -748,7 +754,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 <br/><br/>
 
 <a name="GetPrintDestination"></a>
-### 13. GetPrintDestination (GET)
+### 14. GetPrintDestination (GET)
 [<sub>Volver</sub>](#inicio)
 
    **NOTA:** El método solo esta disponible para **Delta o T20** versión **20.01.000.3245**    
@@ -776,7 +782,58 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+<a name="SendOrder"></a>
+### 15. SendOrder (POST) 
+[<sub>Volver</sub>](#inicio)
+
+NOTA: El método solo está disponible para Delta 3 o T23 versión 23_01_000_3053.  
+
+  Este método permite enviar a cocina de manera automática cada artículo de una comanda. Además, permite la facturación automática según parametrización. 
+
+ 
+####   Request
+     - TokenCS
+     - Id 
+     - HabFacturaAuto 
+
+ 
+ ####   Formato del JSON
+
+
+```
+{ 
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; 
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA", 
+Id_comanda : 508,
+HabFacturaAuto : 0 
+} 
+```
+
+**Información SendOrder**
+
+| **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
+| --- | --- | --- | --- |--- |
+| **Id_Comanda ** | Si | Nro de comanda | Integer(8) | 3000 |
+| **HabFacturaAuto** | Si | Habilita facturación automática | Bit | 1 |
+
+
+**Response 200 SendOrder**
+
+```
+{ 
+"order" : null, 
+"Success": true, 
+"Error":  null 
+} 
+```
+ 
+
+Para poder utilizar dicho método es necesario realizar la parametrización en la configuración de la terminal de Restó; solapa “Procesos automáticos”. Se deberá indicar la Frecuencia con la que se desea que se ejecute el proceso automático y los minutos máximos respecto a la fecha acordada del pedido; que se consideraran para enviar a cocina.  
+
+<br/><br/>
+
 <a name="errores"></a>
+
 ## Código de errores
 [<sub>Volver</sub>](#inicio)
 

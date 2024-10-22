@@ -56,6 +56,10 @@ En Tango Restó para **Delta o T20**, la versión mínima mínima requerida para
 
 En Tango Restó para **Delta 2 o T21**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **21.01.000.3512 o superior**.
 
+En Tango Restó para **Delta 3 o T23**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **23.01.000.2044 o superior**.
+
+En Tango Restó para **Delta 4 o T24**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **24.01.000.3033 o superior**.
+
 
 <a name="instalacion"></a>
 ### Instalación
@@ -172,7 +176,7 @@ La última versión del hotfix para **Delta o T20** es: **20.01.000.4420** con *
 
 La última versión del hotfix para **Delta 2 o T21** es : **21.01.000.4431** con **Versión del instalador**: 21.1.0.538 (INSTALLERRESTOAPISERVICE.EXE)
 
-La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_3053** con **Versión del instalador**: 23.1.0.538 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_3971** con **Versión del instalador**: 23.1.0.27 (INSTALLERRESTOAPISERVICE.EXE) 
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
@@ -224,6 +228,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 		"DeliveryDate" : "06/08/2020",
 		"PickUp" : false,
 		"PickupDate" : "06/08/2020",
+                "PickupTime": "16:24"
 		"DelayTime": 15,
 		"Notes" : "Nota para la comanda",
 		"PriceListCode" : 1,
@@ -320,6 +325,7 @@ Estos datos son obligatorios para dar de alta a una orden
 | **DeliveryDate** | Si | Fecha estimada de entrega de la comanda | Date | DD/MM/AAAA |
 | **PickUp** | Si | La comanda será vista desde delivery o mostrador | Varchar(10) | True = Mostrador o False = Delivery |
 | **PickupDate** | Si | Fecha registro de entrega de la comanda | Date | DD/MM/AAAA |
+| **PickupTime** | No | Hora registro de entrega de la comanda | String | HH:MM |
 | **DelayTime** | No | Minutos de demora en la  entrega de la comanda | Integer | 0 |
 |  **Notes** | No | Nota para la comanda | Varchar(-1) | Colocar servilletas extras |
 |  **PriceListCode** | Si | Número de la lista de precio asicada a la comanda | ENTERO_TG | 1 |

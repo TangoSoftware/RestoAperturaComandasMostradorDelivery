@@ -802,7 +802,7 @@ NOTA: El método solo está disponible para Delta 3 o T23 versión 23_01
 ####   Request
      - TokenCS
      - Id 
-     - HabFacturaAuto 
+     - habilitaFacturaAuto 
 
  
  ####   Formato del JSON
@@ -813,7 +813,7 @@ NOTA: El método solo está disponible para Delta 3 o T23 versión 23_01
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; 
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA", 
 Id_comanda : 508,
-HabFacturaAuto : 0 
+habilitaFacturaAuto : 0 
 } 
 ```
 
@@ -821,8 +821,8 @@ HabFacturaAuto : 0
 
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
-| **Id_Comanda ** | Si | Nro de comanda | Integer(8) | 3000 |
-| **HabFacturaAuto** | Si | Habilita facturación automática | Bit | 1 |
+| **Id_Comanda** | Si | Nro de comanda | Integer(8) | 3000 |
+| **habilitaFacturaAuto** | Si | Habilita facturación automática | Bit | 1 |
 
 
 **Response 200 SendOrder**
@@ -834,9 +834,9 @@ HabFacturaAuto : 0
 "Error":  null 
 } 
 ```
- 
 
-Para poder utilizar dicho método es necesario realizar la parametrización en la configuración de la terminal de Restó; solapa “Procesos automáticos”. Se deberá indicar la Frecuencia con la que se desea que se ejecute el proceso automático y los minutos máximos respecto a la fecha acordada del pedido; que se consideraran para enviar a cocina.  
+
+Para poder utilizar dicho método, es necesario realizar la parametrización en la configuración de la terminal de Restó, en la solapa “Procesos automáticos”. Se deberá indicar la frecuencia con la que se desea que se ejecute el proceso automático y los minutos máximos respecto a la fecha acordada para el pedido que se considerarán para enviar a cocina. Además, en caso de no hacer uso del TAG “DelayTime” en el JSON del método AddOrder, debe existir al menos un tiempo promedio estimado de entrega en los parámetros generales de al menos un minuto.
 
 <br/><br/>
 

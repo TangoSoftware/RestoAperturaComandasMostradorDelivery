@@ -178,6 +178,8 @@ La última versión del hotfix para **Delta 2 o T21** es : **21.01.000.4431** co
 
 La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_3971** con **Versión del instalador**: 23.1.0.27 (INSTALLERRESTOAPISERVICE.EXE) 
 
+La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_3063** con **Versión del instalador**: 24.1.0.20 (INSTALLERRESTOAPISERVICE.EXE) 
+
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
 • Descargar del sitio web https://nexo.axoft.com/ el Hotfix e instalarlo en el servidor   

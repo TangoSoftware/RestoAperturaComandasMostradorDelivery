@@ -2,7 +2,7 @@
 # Resto Apertura Comandas (Mostrador y Delivery) y funciones automáticas
 
 La API permite registrar en la base de datos de Tango Restó, las comandas o pedidos generados por aplicaciones externas. Esta información es recibida como parámetros de entrada y la comanda será visualizada en el módulo de Delivery o Mostrador según sea el caso.
-También dispone de una funcionalidad automática a partir de T23 (Delta 3) para enviar a cocina artículos de una comanda y de facturar automáticamente luego del envío a cocina. 
+También dispone de una funcionalidad automática para enviar a cocina artículos de una comanda y de facturar automáticamente luego del envío a cocina. 
 
 Desde Restô se podrá:
   - Identificar el origen de la comanda. 
@@ -49,12 +49,6 @@ Desde Restô se podrá:
 <a name="versiones"></a>
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
-
-En Tango Restó para **T19**, la versión mínima requerida para habiltar esta funcionalidad es la **19.01.000.2576 o superior**.  
-   
-En Tango Restó para **Delta o T20**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **20.01.000.2108 o superior**.
-
-En Tango Restó para **Delta 2 o T21**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **21.01.000.3512 o superior**.
 
 En Tango Restó para **Delta 3 o T23**, la versión mínima mínima requerida para habiltar esta funcionalidad es la **23.01.000.2044 o superior**.
 
@@ -139,8 +133,7 @@ Luego de completar el proceso de instalación proceda a configurar la terminal d
  
 Desde aquí en la sección “Identificador web” deberá configurar los siguientes parámetros:
 
-### Para versión T19 y Delta (T20):
- 
+
 • **Notifica nuevo pedido:** Al marcar este parámetro, le está indicando al sistema que la terminal actual va a notificar cuando ingrese un           nuevo pedido a través de un mensaje Pop-up en las vistas activas del sistema.
  
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen            nuevos pedidos por notificar en Tango Restó.
@@ -148,8 +141,6 @@ Desde aquí en la sección “Identificador web” deberá configurar los siguie
 • **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
 
 **NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido. Es importante mencionar que, al seleccionar un sonido en Restó, el tipo de sonido a reproducir  dependerá según el sonido que tenga configurado en el sistema operativo instalado. Desde el administrador de sonido de Windows podrá modificar el tipo de sonido asociado en Restó  
-
-### Para versión Delta 2 (T21):
 
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen nuevos pedidos por notificar en Tango Restó.
 
@@ -170,15 +161,9 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión del hotfix para **T19** es: **19.01.000.4980** con **Versión del instalador**: 19.1.0.159 (INSTALLERRESTOAPISERVICE.EXE)
-  
-La última versión del hotfix para **Delta o T20** es: **20.01.000.4420** con **Versión del instalador**: 20.1.0.660 (INSTALLERRESTOAPISERVICE.EXE)
+La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_4677** con **Versión del instalador**: 23.1.0.34 (INSTALLERRESTOAPISERVICE.EXE) 
 
-La última versión del hotfix para **Delta 2 o T21** es : **21.01.000.4431** con **Versión del instalador**: 21.1.0.538 (INSTALLERRESTOAPISERVICE.EXE)
-
-La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_3971** con **Versión del instalador**: 23.1.0.27 (INSTALLERRESTOAPISERVICE.EXE) 
-
-La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_3063** con **Versión del instalador**: 24.1.0.20 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_4531** con **Versión del instalador**: 24.1.0.30 (INSTALLERRESTOAPISERVICE.EXE) 
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 
@@ -648,6 +633,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 
 <br/><br/>
 
+**Información OptionGroups**
+
+Estos datos solo serán visualizados si se trata de un artículo del tipo promoción
+| **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** |
+| --- | --- | --- |--- |
+|  **IntegrationCode** | Código del artículo que forma parte de una promoción | Varchar(15) | GAS009 |
+|  **Quantity** | Cantidad del artículo que forma parte del artículo promoción | DECIMAL_TG | 1.0 |
+
+<br/><br/>
+
+
 <a name="GetStateOrderList"></a>
 ### 10. GetStateOrderList (GET)
 [<sub>Volver</sub>](#inicio)
@@ -764,8 +760,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 <a name="GetPrintDestination"></a>
 ### 14. GetPrintDestination (GET)
 [<sub>Volver</sub>](#inicio)
-
-   **NOTA:** El método solo esta disponible para **Delta o T20** versión **20.01.000.3245**    
+      
    Este método devuelve todos los destinos de impresión disponibles en Tango Restó
     
 ####   Request
@@ -794,27 +789,40 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 ### 15. SendOrder (POST) 
 [<sub>Volver</sub>](#inicio)
 
-NOTA: El método solo está disponible para Delta 3 o T23 versión 23_01_000_3053.  
-
   Este método permite enviar a cocina de manera automática cada artículo de una comanda. Además, permite la facturación automática según parametrización. 
 
  
 ####   Request
      - TokenCS
      - Id 
+     - DestinoCocina
+     - DestinoComp
      - habilitaFacturaAuto 
+     
+     
 
  
  ####   Formato del JSON
 
 
 ```
+Ejemplo 1
+{ 
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; 
+Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA", 
+Id_comanda : 508,
+DestinoCocina: "\\TANGO\\COCINA",
+DestinoComp: "TALONARIO",
+habilitaFacturaAuto": 1
+}
+
+Ejemplo 2
 { 
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; 
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA", 
 Id_comanda : 508,
 habilitaFacturaAuto : 0 
-} 
+}
 ```
 
 **Información SendOrder**
@@ -822,6 +830,8 @@ habilitaFacturaAuto : 0
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
 | --- | --- | --- | --- |--- |
 | **Id_Comanda** | Si | Nro de comanda | Integer(8) | 3000 |
+| **"DestinoCocina"** | No | Nombre de la impresora o recurso compartido en Windows por donde saldrá impresa la comanda completa cuya orden tiene origen desde la API | Varchar(200) | \\TANGO\\COCINA |
+| **DestinoComp** | No | Nombre  de la impresora o recurso compartido en Windows por donde saldrá impreso el comprobante de venta cuya orden tiene origen desde la API | Varchar(200) | CAJA |
 | **habilitaFacturaAuto** | Si | Habilita facturación automática | Bit | 1 |
 
 
@@ -835,8 +845,18 @@ habilitaFacturaAuto : 0
 } 
 ```
 
+**Consideraciones**
 
 Para poder utilizar dicho método, es necesario realizar la parametrización en la configuración de la terminal de Restó, en la solapa “Procesos automáticos”. Se deberá indicar la frecuencia con la que se desea que se ejecute el proceso automático y los minutos máximos respecto a la fecha acordada para el pedido que se considerarán para enviar a cocina. Además, en caso de no hacer uso del TAG “DelayTime” en el JSON del método AddOrder, debe existir al menos un tiempo promedio estimado de entrega en los parámetros generales de al menos un minuto.
+
+En EndPoint no impacta en el funcionamiento de impresión de comandas que hace hoy en día el sistema Restó, se considera como un adicional en el proceso, por lo cual no interfiere en ningún momento en la parametrización que se haga de manera general o particular en la impresión de comandas, es decir, este proceso continuará su camino habitual. 
+
+Es un requisito que Restó tenga parametrizado al menos una forma de impresión de comanda para el sector de Delivery  desde los parámetros generales si desea que desde la API sea impreso el envío a cocina.
+
+Los comprobantes de ventas solo serán emitidos por la impresora cuando el valor le sea pasado en el EndPoint de la API  y, además cuando el valor del habilitaFacturaAuto le sea pasado como valor '1'.
+
+Recuerde que los nombres o recursos compartidos deben estar correctamente configurados y definidos. En el caso de recursos compartidos, asegúrese de que el usuario de Windows cuente con los permisos adecuados para acceder a dichos recursos. Esto garantizará que el proceso de impresión de comandas y comprobantes de ventas se realice de manera exitosa a través de la API.
+
 
 <br/><br/>
 

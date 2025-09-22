@@ -219,7 +219,7 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 		"DeliveryDate" : "06/08/2020",
 		"PickUp" : false,
 		"PickupDate" : "06/08/2020",
-                "PickupTime": "16:24"
+                "PickupTime": "16:24",
 		"DelayTime": 15,
 		"Notes" : "Nota para la comanda",
 		"PriceListCode" : 1,
@@ -293,7 +293,97 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 }
 
 ``` 
+ ####   Curl
+     
+```
+curl --location 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/AddOrder' \
+--header 'Content-Type: application/json' \
+--data-raw '
+{
+"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"cashCode" : "1",
+	"order" : {
+	"ExternalId" : 954,
+		"platformId" : "4",
+		"RegisteredDate" : "09/09/2025",
+		"DeliveryDate" : "09/09/2025",
+		"PickUp" : false,
+		"PickupDate" : "09/09/2025",
+        "DelayTime" : 0,
+		"Notes" : "Nota para la comanda",
+		"DeliveryTimeID" : 0,
+		"MotivoRechazoID" : 0,
+		"PriceListCode" : 1,
+		
+		"Customer" : {
+				"name" : "Jorge Chaar",
+				"email" : "jorgea@axoft.com"
+		},
+		
+		"Address" : {
+			 "Description" : "Yerbal",
+			 "Phone" : "1569812178",
+			 "Notes": "",
+			 "ZipCode": "1504",
+			 "City": "Caballito",
+			 "Street": "Yerbal",
+			 "Number": "773",
+			 "Area" : "",
+			 "Corner": "Rojas",
+			 "Complement": "",
+			 "Department": "6 E"
+		},
+		
+		"Details" : [
+			{
+				"Code": "001",
+				"Quantity": 2,
+				"UnitPrice": 200.0,
+				"Notes" : "sin sal"
+			},
+			{
+				"Code": "002",
+				"Quantity": 1,
+				"UnitPrice": 200.0,
+				"Notes" : ""
+			},
+			
+			{
+				"Code": "913",
+				"Quantity": 1,
+				"UnitPrice": 1200.0,
+				"Notes" : "",
+				"OptionGroups": [
+					{
+						"IntegrationCode": "521",
+						"Name": null,
+						"Options": null,
+						"Quantity": 12,
+						"Amount": 100,
+						"QDOrderDetailID": 0,
+						"ModifiesPrice": false,
+						"QDOrdersDetails": null,
+						"QDOrdersDetails" : {
+							"Quantity" : 1
+						}
+					}
+				]
+			}
+		],
+		
+		"Discount" : {
+			"Type" : "I",
+			"Amount" : 10
+		},
+		
+		"Surcharge" : {
+			"Type" : "P",
+			"Amount": 5
+		}
+	}
+}'
 
+``` 
 
 ####  Datos del JSON
 
@@ -416,13 +506,22 @@ Estos datos serán necesario si la orden tiene algún tipo de medio de pago regi
      
  ####   Formato del JSON
 
-
 ```
 {
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
+ ####   Curl
+     
+```
+
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetOrders' \
+--header 'Content-Type: application/json' \
+--data '{"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS; Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+``` 
 
 <a name="GetOrderbyId"></a>
 ### 3. GetOrderbyId (GET)
@@ -444,6 +543,18 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
 Id : 508
 }
+```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetOrderById' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"id" : Número de la orden de la comanda registrada en Tango Restó
+}'
+
 ```
 
 **Información GetOrderById**
@@ -472,9 +583,23 @@ Id : 508
 {
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
-ExternalId : 508, "PlatformId" : 5
+"ExternalId" : "508",
+"PlatformId" : "5"
 }
 ```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetOrderByExternalId/' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"ExternalId" : "Número de la comanda generada desde la plataforma externa",
+	"platformId" : "Número de la plataforma externa"
+}'
+
+``` 
 
 **Información GetOrderByExternalId**
 
@@ -507,6 +632,18 @@ Id : 508
 }
 ```
 
+ ####   Curl
+     
+```
+curl --location 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/CancelOrder ' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"id" : Número de la comanda en Tango Restó
+}'
+
+```
+
 **Información CancelOrder**
 
 | **Campo** | **Requerido** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
@@ -534,6 +671,17 @@ Id : 508
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetPlatformList' \
+--header 'Content-Type: application/json' \
+--data '{
+		"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+``` 
 
 **Información Response JSON GetPlatFormList**
 
@@ -564,6 +712,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
 
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetPaymentTypes' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+```
+
 **Información Response JSON GetPaymenetTypes**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
@@ -591,6 +750,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
+```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetPriceList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
 ```
 
 **Información Response JSON GetPriceList**
@@ -623,6 +793,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
+```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetProductList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
 ```
 
 **Información Response JSON GetProductList**
@@ -667,6 +848,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
 
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetStateOrderList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+```
+
 **Información Response JSON GetStateOrderList**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
@@ -694,6 +886,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetProductPriceList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+``` 
 
 **Información Response JSON GetProductPriceList**
 
@@ -724,6 +927,16 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
 ```
 
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetCashRegisterList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
+``` 
 **Información Response JSON GetCashRegisterList**
 
 | **Campo** | **Descripción** | **Tipo de Dato** | **Valores Posibles / Ejemplos** | 
@@ -750,6 +963,17 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;
 Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
 }
+```
+
+ ####   Curl
+     
+```
+curl --location --request GET 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/GetSectionList' \
+--header 'Content-Type: application/json' \
+--data '{
+	"TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
+}'
+
 ```
 
 **Información Response JSON GetSectionList**
@@ -803,9 +1027,8 @@ Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA"
      - DestinoComp
      - habilitaFacturaAuto 
      
-     
+    
 
- 
  ####   Formato del JSON
 
 
@@ -828,6 +1051,19 @@ Id_comanda : 508,
 habilitaFacturaAuto : 0 
 }
 ```
+
+ ####   Curl
+     
+```
+curl --location 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/SendOrder' \
+--header 'Content-Type: application/json' \
+--data '{
+ "TokenCS": "Data Source=NOMBRE_SERVIDOR_TANGO;Initial Catalog=NOMBRE_BASE_DE_DATOS;Integrated Security=False;User ID=NOMBRE_USUARIO;Password=CONTRASEÑA",
+	"ID_COMANDA":"Nro de comanda",
+    "habilitaFacturaAuto": 0
+}'
+
+``` 
 
 **Información SendOrder**
 

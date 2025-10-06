@@ -165,7 +165,7 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 
 La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_4677** con **Versión del instalador**: 23.1.0.34 (INSTALLERRESTOAPISERVICE.EXE) 
 
-La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_4531** con **Versión del instalador**: 24.1.0.30 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_4837** con **Versión del instalador**: 24.1.0.34 (INSTALLERRESTOAPISERVICE.EXE) 
 
 La última versión del hotfix para **Delta 5 o T25** es : ** 25_01_000_2377** con **Versión del instalador**: 25.1.0.14 (INSTALLERRESTOAPISERVICE.EXE) 
 

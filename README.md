@@ -52,9 +52,9 @@ Desde Restô se podrá:
 
 En Tango Restó para **Delta 3 o T23**, la versión mínima requerida para habiltar esta funcionalidad es la **23.01.000.2044 o superior**.
 
-En Tango Restó para **Delta 4 o T24**, la versión mínima requerida para habiltar esta funcionalidad es la **24.01.000.3033 o superior**.
+En Tango Restó para **Delta 4 o T24**, la versión mínima requerida para habiltar esta funcionalidad es la **24.01.000.4964 o superior**.
 
-En Tango Restó para **Delta 4 o T25**, la versión mínima requerida para habiltar esta funcionalidad es la **25.01.000.2377 o superior**.
+En Tango Restó para **Delta 5 o T25**, la versión mínima requerida para habiltar esta funcionalidad es la **25.01.000.2377 o superior**.
 
 
 <a name="instalacion"></a>

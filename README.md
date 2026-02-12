@@ -50,8 +50,6 @@ Desde Restô se podrá:
 ### Versiones soportadas de Tango Restô
 [<sub>Volver</sub>](#inicio)
 
-En Tango Restó para **Delta 3 o T23**, la versión mínima requerida para habiltar esta funcionalidad es la **23.01.000.2044 o superior**.
-
 En Tango Restó para **Delta 4 o T24**, la versión mínima requerida para habiltar esta funcionalidad es la **24.01.000.4964 o superior**.
 
 En Tango Restó para **Delta 5 o T25**, la versión mínima requerida para habiltar esta funcionalidad es la **25.01.000.2377 o superior**.
@@ -163,11 +161,9 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión del hotfix para **Delta 3 o T23** es : ** 23_01_000_4677** con **Versión del instalador**: 23.1.0.34 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_5271** con **Versión del instalador**: 24.1.0.37 (INSTALLERRESTOAPISERVICE.EXE) 
 
-La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_4837** con **Versión del instalador**: 24.1.0.34 (INSTALLERRESTOAPISERVICE.EXE) 
-
-La última versión del hotfix para **Delta 5 o T25** es : ** 25_01_000_2377** con **Versión del instalador**: 25.1.0.14 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 5 o T25** es : ** 25_01_000_3518** con **Versión del instalador**: 25.1.0.17 (INSTALLERRESTOAPISERVICE.EXE) 
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

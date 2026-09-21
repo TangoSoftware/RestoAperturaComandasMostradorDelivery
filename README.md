@@ -54,6 +54,8 @@ En Tango Restó para **Delta 4 o T24**, la versión mínima requerida para habil
 
 En Tango Restó para **Delta 5 o T25**, la versión mínima requerida para habiltar esta funcionalidad es la **25.01.000.2377 o superior**.
 
+En Tango Restó para **Delta 6 o T26**, la versión mínima requerida para habiltar esta funcionalidad es la **26.01.000.3309 o superior**.
+
 
 <a name="instalacion"></a>
 ### Instalación
@@ -133,18 +135,9 @@ Luego de completar el proceso de instalación proceda a configurar la terminal d
  
 Desde aquí en la sección “Identificador web” deberá configurar los siguientes parámetros:
 
-
-• **Notifica nuevo pedido:** Al marcar este parámetro, le está indicando al sistema que la terminal actual va a notificar cuando ingrese un           nuevo pedido a través de un mensaje Pop-up en las vistas activas del sistema.
- 
-• **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen            nuevos pedidos por notificar en Tango Restó.
-
-• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
-
-**NOTA:** Estas notificaciones se configuran por terminal, lo que quiere decir que usted podrá tener terminales en donde puede o no indicarle si desea recibir notificación de la llegada de un nuevo pedido. Es importante mencionar que, al seleccionar un sonido en Restó, el tipo de sonido a reproducir  dependerá según el sonido que tenga configurado en el sistema operativo instalado. Desde el administrador de sonido de Windows podrá modificar el tipo de sonido asociado en Restó  
-
 • **Frecuencia:** El valor por defecto será de diez (10) segundos y está relacionado con la frecuencia que el sistema chequeará si existen nuevos pedidos por notificar en Tango Restó.
 
-• **Pedidos Web a notificar:** Deberá hacer clic en el botón ‘agregar’ para que el sistema le permita seleccionar la(s) terminal(es) donde serán visibles las notificaciones, a continuación indique la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
+• **Grilla "Pedidos Web a notificar":** Deberá hacer clic en el botón "agregar" para que el sistema le permita seleccionar la(s) terminal(es) donde serán visibles las notificaciones, a continuación indique la(s) plataforma(s) disponible(s) integrada(s) con Tango Restó, registradas en la tabla TRA_ORIGEN_INFORMACION. Una vez seleccionada la plataforma, indique un color para las notificaciones de los nuevos pedidos entrantes en Tango Resto así como; de igual manera podrá elegir un sonido especifico para cuando el sistema reciba un nuevo pedido.
 
 **NOTA:** Siempre que configure las notificaciones de un pedido para las terminales, recuerde guardar los cambios, cerrar las todas las terminales involucradas en la configuración y abrir Restó nuevamente, de esta manera se aplicarán los cambios correspondientes a la configuración de notificaciones.
 
@@ -161,9 +154,11 @@ Por último, en el módulo de mostrador y Delivery se encuentra un nuevo botón 
 ### Actualización
 [<sub>Volver</sub>](#inicio)
 
-La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_5440** con **Versión del instalador**: 24.1.0.46 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 4 o T24** es : ** 24_01_000_5812** con **Versión del instalador**: 24.1.0.46 (INSTALLERRESTOAPISERVICE.EXE) 
 
-La última versión del hotfix para **Delta 5 o T25** es : ** 25_01_000_3807** con **Versión del instalador**: 25.1.0.22 (INSTALLERRESTOAPISERVICE.EXE) 
+La última versión del hotfix para **Delta 5 o T25** es : ** 25_01_000_4601** con **Versión del instalador**: 25.1.0.22 (INSTALLERRESTOAPISERVICE.EXE) 
+
+La última versión del hotfix para **Delta 6 o T26** es : ** 26_01_000_3309** con **Versión del instalador**:26.1.0.983(INSTALLERRESTOAPISERVICE.EXE) 
 
 Para aplicar esta actualización se deberán seguir los siguientes pasos:
 

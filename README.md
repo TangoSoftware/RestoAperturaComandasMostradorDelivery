@@ -351,12 +351,6 @@ curl --location 'http://NOMBRE_SERVIDOR_LOCAL:9209/Resto/AddOrder' \
 						"Options": null,
 						"Quantity": 12,
 						"Amount": 100,
-						"QDOrderDetailID": 0,
-						"ModifiesPrice": false,
-						"QDOrdersDetails": null,
-						"QDOrdersDetails" : {
-							"Quantity" : 1
-						}
 					}
 				]
 			}
